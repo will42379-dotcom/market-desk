@@ -1,0 +1,73 @@
+{
+ "synced": "2026-11-28T08:50:55Z",
+ "pages": {
+  "morning": {
+   "slug": "20a43dde-3c6f-44e9-bcfe-756df97b202d",
+   "version": "1795855322-22eb",
+   "updated_at": "2026-11-28T08:42:02Z",
+   "files": [
+    "data/2026-11-21.json",
+    "data/2026-11-23.json",
+    "data/2026-11-24.json",
+    "data/2026-11-25.json",
+    "data/2026-11-26.json",
+    "data/2026-11-27.json",
+    "data/2026-11-28.json",
+    "data/index.json",
+    "data/tp_moves.json",
+    "index.html"
+   ]
+  },
+  "scan": {
+   "slug": "8974b48a-f63f-40b8-9fa4-22cc2b7f6889",
+   "version": "1795746475-9913",
+   "updated_at": "2026-11-27T02:27:55Z",
+   "files": [
+    "index.html"
+   ]
+  },
+  "disclosure": {
+   "slug": "b79dbee5-c484-4adc-ac3d-2b4bad0f0cb6",
+   "version": "1795829578-2d23",
+   "updated_at": "2026-11-28T01:32:58Z",
+   "files": [
+    "index.html"
+   ]
+  },
+  "ecos": {
+   "slug": "6c276122-634a-4480-90d0-5993d075a78c",
+   "version": "1795828639-27c3",
+   "updated_at": "2026-11-28T01:17:19Z",
+   "files": [
+    "index.html"
+   ]
+  },
+  "research": {
+   "slug": "6c71dfc2-2cc4-4740-b991-6404a919acea",
+   "version": "1795775043-5b32",
+   "updated_at": "2026-11-27T10:24:03Z",
+   "files": [
+    "data/batches/2026-11-20.json",
+    "data/batches/2026-11-23.json",
+    "data/batches/2026-11-24.json",
+    "data/batches/2026-11-25.json",
+    "data/batches/2026-11-26.json",
+    "data/batches/2026-11-27.json",
+    "data/index.json",
+    "data/tp-history.json",
+    "data/watch.json",
+    "data/weekly/2026-11-16.json",
+    "data/weekly/2026-11-23.json",
+    "index.html"
+   ]
+  },
+  "ipo": {
+   "slug": "391d0408-a3b0-4b32-a1a0-af66dd5bd358",
+   "version": "1795774805-e0f1",
+   "updated_at": "2026-11-27T10:20:05Z",
+   "files": [
+    "index.html"
+   ]
+  }
+ }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>마켓 데스크</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* VOICE   증권사 HTS의 화면 전환 탭. 꾸밈 없이, 고른 화면이 주인공.
+   IDEA    단말기 상단의 화면 번호 탭: 누르면 아래 창이 통째로 바뀐다.
+   PICTURE 탭 아래 전체 높이를 고른 페이지가 채운다(각 페이지의 복사본).
+   COLOUR  다른 페이지들과 같은 남색 상단 바, 선택 탭은 파란 밑줄.
+   TYPE    IBM Plex Sans KR, 숫자·시각은 IBM Plex Mono. LAYOUT 바 2줄(탭/상태) + 남은 높이 전부 화면. */
+:root{color-scheme:light dark;
+  --bg:light-dark(#E6EAF0,#0A0E14);--app:#0D1320;--app2:#121A2B;--ink:#E8EEF8;--ink2:#C9D4E6;--muted:#8F9BB0;
+  --line:#000;--acc:#5B8FE0;--ok:#3DDC84;
+  --sans:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Consolas,monospace}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html,body{height:100%}
+body{margin:0;background:var(--bg);font:13px/1.5 var(--sans);-webkit-font-smoothing:antialiased;display:flex;flex-direction:column;overflow:hidden}
+header{flex:none;background:var(--app);color:var(--ink);border-bottom:1px solid var(--line)}
+.row{display:flex;align-items:center;gap:12px;padding:0 12px;min-height:44px}
+.brand{flex:none;display:flex;align-items:baseline;gap:8px}
+.brand b{font-size:14.5px;font-weight:700;letter-spacing:-.01em}
+.brand i{font-style:normal;font-size:11.5px;color:var(--muted)}
+.tabs{display:flex;overflow-x:auto;scrollbar-width:none;flex:1}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;appearance:none;background:none;border:0;border-bottom:2px solid transparent;color:var(--ink2);font:500 13px var(--sans);padding:12px 11px 10px;min-height:44px;cursor:pointer;white-space:nowrap}
+.tab:hover{color:#fff}
+.tab[aria-selected=true]{color:#fff;font-weight:600;border-bottom-color:var(--acc)}
+.tab:focus-visible,.src a:focus-visible{outline:2px solid var(--acc);outline-offset:-2px}
+.src{display:flex;align-items:center;gap:14px;padding:0 12px;min-height:30px;background:var(--app2);border-top:1px solid #1C2740;font:11.5px var(--mono);color:#AEBBD0;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+.src::-webkit-scrollbar{display:none}
+/* 좁은 화면에서 칸이 글자보다 좁아져 옆 칸과 겹치지 않게(전역 min-width:0 이 줄어들게 둔다) — 넘치면 줄이 가로로 밀린다 */
+.src>*{flex:none}
+.src .dot::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--ok);margin-right:6px;vertical-align:1px}
+.src .dot.old::before{background:#E0A43D}
+.src a{color:var(--ink);text-decoration:none;font-family:var(--sans);font-weight:500;border:1px solid #33456A;border-radius:2px;padding:2px 9px;margin-left:auto}
+.src a:hover{border-color:var(--acc)}
+.src .note{font-family:var(--sans);color:var(--muted)}
+main{flex:1;position:relative;background:var(--bg)}
+main iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:var(--bg)}
+main iframe[hidden]{display:none}
+.load{position:absolute;inset:0;display:grid;place-items:center;color:#8F9BB0;font:13px var(--sans);pointer-events:none}
+.toast{position:fixed;left:0;right:0;bottom:20px;margin:0 auto;width:max-content;max-width:calc(100% - 32px);background:var(--app);color:var(--ink);border:1px solid #33456A;border-radius:4px;padding:9px 14px;font:13px/1.45 var(--sans);box-shadow:0 4px 16px rgba(0,0,0,.35);z-index:10}
+.toast[hidden]{display:none}
+@media(max-width:640px){.brand i{display:none}.row{gap:8px;padding:0 8px}.tab{padding:12px 9px 10px;font-size:12.5px}.src .note{display:none}}
+@media(max-width:420px){.brand{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="row">
+    <div class="brand"><b>마켓 데스크</b><i>시장 화면 6개</i></div>
+    <nav class="tabs" id="tabs" role="tablist" aria-label="화면 고르기"></nav>
+  </div>
+  <div class="src" id="src" aria-live="polite"></div>
+</header>
+<main id="main"><div class="load" id="load">화면을 불러오는 중</div></main>
+<div class="toast" id="toast" role="status" hidden></div>
+<script>
+{
+const ART='https://claude.ai/artifact/';
+const PAGES=[
+  {k:'morning',n:'모닝 브리핑',id:'52nLrvFwTr6inkE86UCLyA'},
+  {k:'scan',n:'주가 스캔',id:'HyUKU7jfNKdfhUu4QWczKA'},
+  {k:'disclosure',n:'공시 모니터',id:'Pg5MzagrFmcpPY4Cc3myth'},
+  {k:'ecos',n:'ECOS 매크로',id:'EMcDRBc2yPk5vUQkgxLnmy'},
+  {k:'research',n:'리서치 리포트',id:'EPh6RkUQMqdKWaph2dqA4R'},
+  {k:'ipo',n:'IPO 공모가 역추적',id:'843wi1Xs1BvVxcjLrP4oMZ'}
+];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let SYNC={},cur=null;const frames={};
+/* OUT = claude.ai 뷰어 밖(GitHub Pages 공개 사이트 등). 이때는 원본 링크를 보이지 않는다 */
+const OUT=!/claudeusercontent\.com$/.test(location.hostname);
+
+/* 시각: ISO(UTC) → 한국시간 M/D HH:MM */
+const kst=iso=>{if(!iso)return'–';const d=new Date(iso);if(isNaN(d))return esc(iso);const k=new Date(d.getTime()+9*3600e3);
+  return `${k.getUTCMonth()+1}/${k.getUTCDate()} ${String(k.getUTCHours()).padStart(2,'0')}:${String(k.getUTCMinutes()).padStart(2,'0')}`};
+
+$('tabs').innerHTML=PAGES.map(p=>`<button class="tab" role="tab" id="t-${p.k}" aria-controls="main" aria-selected="false" data-k="${p.k}">${esc(p.n)}</button>`).join('');
+
+/* 다른 사이트로 가는 링크는 허브 문서에서 연다(뷰어가 바깥에서 열어 준다) */
+const openOut=u=>{const a=document.createElement('a');a.href=u;a.target='_blank';a.rel='noopener';a.hidden=true;document.body.appendChild(a);a.click();a.remove()};
+
+/* 공개 사이트에서는 claude.ai 원본(작성자 계정의 비공개 페이지)을 열 수 없다는 것을 알린다 */
+let toastT=0;
+const toast=msg=>{const t=$('toast');t.textContent=msg;t.hidden=false;clearTimeout(toastT);toastT=setTimeout(()=>{t.hidden=true},4000)};
+const PRIVATE_MSG='이 링크는 작성자 계정의 비공개 원본이라 이 사이트에서는 열 수 없어요.';
+
+/* 복사본 안의 링크: 다른 화면 주소면 탭을 바꾸고, 바깥 주소면 허브에서 연다.
+   공개 사이트(OUT)에서 탭이 아닌 claude.ai 원본 주소(예: IPO 데이터셋 시트)는 열지 않고 안내만 한다. */
+const hook=(f)=>{let d;try{d=f.contentDocument}catch(e){return}if(!d)return;
+  const onLink=e=>{const a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a)return;
+    const raw=a.getAttribute('href')||'';if(!raw||raw[0]==='#'||/^javascript:/i.test(raw))return;
+    const m=a.href.match(/claude\.ai\/artifact\/([A-Za-z0-9]+)/),p=m&&PAGES.find(x=>x.id===m[1]);
+    if(p){e.preventDefault();if(e.type==='click')go(p.k,true);return}
+    if(m&&OUT){e.preventDefault();if(e.type==='click')toast(PRIVATE_MSG);return}
+    if(e.type!=='click')return;
+    let u;try{u=new URL(a.href)}catch(_){return}
+    if(u.origin!==location.origin&&/^https?:$/.test(u.protocol)){e.preventDefault();openOut(u.href)}
+  };
+  d.addEventListener('click',onLink,true);d.addEventListener('auxclick',onLink,true)};
+
+const status=()=>{const p=PAGES.find(x=>x.k===cur);if(!p)return;const s=(SYNC.pages||{})[p.k]||{};
+  const lag=s.updated_at&&SYNC.latest&&SYNC.latest[p.k]&&SYNC.latest[p.k]!==s.updated_at;
+  /* 공개 사이트(OUT)에서는 '원본 열기'를 두지 않는다 — 원본은 작성자 계정의 비공개 페이지라 다른 사람은 열 수 없다 */
+  $('src').innerHTML=`<span class="dot${lag?' old':''}">원본 갱신 ${kst(s.updated_at)}</span><span>${OUT?'사이트':'허브'} 반영 ${kst(SYNC.synced)}</span>`+
+    `<span class="note">원본을 하루 여러 번 따라 갱신하는 복사본</span>`+
+    (OUT?'':`<a href="${ART}${p.id}">원본 열기 ↗</a>`)};
+
+const go=(k,push)=>{const p=PAGES.find(x=>x.k===k)||PAGES[0];k=p.k;
+  if(!frames[k]){const f=document.createElement('iframe');f.src=`p/${k}/index.html`;f.title=p.n;
+    f.addEventListener('load',()=>{hook(f);if(cur===k)$('load').hidden=true});$('main').appendChild(f);frames[k]=f}
+  for(const [kk,f] of Object.entries(frames))f.hidden=kk!==k;
+  for(const b of document.querySelectorAll('.tab')){const on=b.dataset.k===k;b.setAttribute('aria-selected',on);b.tabIndex=on?0:-1;if(on)b.scrollIntoView({block:'nearest',inline:'nearest'})}
+  cur=k;document.title=`${p.n} · 마켓 데스크`;
+  $('load').hidden=!!frames[k].contentDocument&&frames[k].contentDocument.readyState==='complete'&&frames[k].contentDocument.URL!=='about:blank';
+  if(push&&location.hash!=='#'+k){try{history.replaceState(null,'','#'+k)}catch(_){location.hash=k}}
+  status()};
+
+$('tabs').addEventListener('click',e=>{const b=e.target.closest('.tab');if(b)go(b.dataset.k,true)});
+$('tabs').addEventListener('keydown',e=>{if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;const i=PAGES.findIndex(x=>x.k===cur);
+  const n=PAGES[(i+(e.key==='ArrowRight'?1:PAGES.length-1))%PAGES.length];go(n.k,true);$('t-'+n.k).focus();e.preventDefault()});
+addEventListener('hashchange',()=>{const k=location.hash.slice(1);if(k&&k!==cur)go(k,false)});
+
+go(location.hash.slice(1)||'morning',false);
+fetch('sync.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{if(j){SYNC=j;status()}}).catch(()=>{});
+}
+</script>
+</body>
+</html>

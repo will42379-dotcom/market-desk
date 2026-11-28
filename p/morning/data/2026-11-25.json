@@ -1,0 +1,1489 @@
+{
+ "date": "2026-11-25",
+ "label": "11월 25일 (수)",
+ "generated": "2026-11-26 05:13",
+ "gen_g": "2026-11-25 06:50",
+ "gen_kr": "2026-11-25 16:40",
+ "gen_intra": "2026-11-26 05:13",
+ "lead": "뉴욕증시는 반도체 급락에 나스닥이 1.48%, S&P 500이 0.50% 내렸지만 다우는 0.85% 올라 50,018.70으로 마감했고, 유럽은 STOXX 600이 0.66% 내린 가운데 사노피가 인스메드 인수 발표로 9%대 급등했다.",
+ "kr_lead": "코스피가 반도체주 급락과 외국인 1조8,993억원 순매도에 6.16% 내린 4,697.51로 5,000선을 하루 만에 내줬고, 코스닥은 2.29% 내렸다.",
+ "us_session": "11/24(화) 마감",
+ "eu_session": "11/24(화) 마감",
+ "kr_session": "11/25(수) 마감",
+ "market": [
+  {
+   "name": "S&P 500",
+   "v": 7175.1,
+   "d": 2,
+   "chg": -0.36,
+   "cu": "%",
+   "t": "11/26 05:10",
+   "src": "FMP"
+  },
+  {
+   "name": "나스닥",
+   "v": 23529.62,
+   "d": 2,
+   "chg": -0.86,
+   "cu": "%",
+   "t": "11/26 05:10",
+   "src": "FMP"
+  },
+  {
+   "name": "다우",
+   "v": 50223.68,
+   "d": 2,
+   "chg": 0.41,
+   "cu": "%",
+   "t": "11/26 05:10",
+   "src": "FMP"
+  },
+  {
+   "name": "STOXX 600",
+   "v": 626.03,
+   "d": 2,
+   "chg": -1.06,
+   "cu": "%",
+   "t": "11/25 마감",
+   "src": "Chip Dispatch"
+  },
+  {
+   "name": "유로스톡스50",
+   "v": 5894.46,
+   "d": 2,
+   "chg": -1.82,
+   "cu": "%",
+   "t": "11/25 마감",
+   "src": "FMP"
+  },
+  {
+   "name": "독일 DAX",
+   "v": 25005.51,
+   "d": 2,
+   "chg": -1.31,
+   "cu": "%",
+   "t": "11/24 마감",
+   "src": "아나돌루통신"
+  },
+  {
+   "name": "영국 FTSE 100",
+   "v": 10433.48,
+   "d": 2,
+   "chg": -0.32,
+   "cu": "%",
+   "t": "11/26 01:29",
+   "src": "FMP"
+  },
+  {
+   "name": "코스피",
+   "v": 4697.51,
+   "d": 2,
+   "chg": -6.16,
+   "cu": "%",
+   "t": "11/25 마감",
+   "src": "아주경제"
+  },
+  {
+   "name": "코스닥",
+   "v": 650.64,
+   "d": 2,
+   "chg": -2.29,
+   "cu": "%",
+   "t": "11/25 마감",
+   "src": "아주경제"
+  },
+  {
+   "name": "VIX",
+   "v": 27.98,
+   "d": 2,
+   "chg": 6.15,
+   "cu": "%",
+   "t": "11/26 05:10",
+   "src": "FMP"
+  },
+  {
+   "name": "미 국채 2년",
+   "v": 4.63,
+   "d": 2,
+   "unit": "%",
+   "chg": 0,
+   "cu": "bp",
+   "t": "11/24",
+   "src": "FMP(재무부)"
+  },
+  {
+   "name": "미 국채 10년",
+   "v": 4.91,
+   "d": 2,
+   "unit": "%",
+   "chg": -1,
+   "cu": "bp",
+   "t": "11/24",
+   "src": "FMP(재무부)"
+  },
+  {
+   "name": "미 국채 30년",
+   "v": 5.3,
+   "d": 2,
+   "unit": "%",
+   "chg": 1,
+   "cu": "bp",
+   "t": "11/24",
+   "src": "FMP(재무부)"
+  },
+  {
+   "name": "원/달러",
+   "v": 1343.2,
+   "d": 1,
+   "unit": "원",
+   "chg": 0.8,
+   "cu": "원",
+   "t": "11/25 15:30",
+   "src": "아시아경제"
+  },
+  {
+   "name": "금 ($/oz)",
+   "v": 3548.4,
+   "d": 1,
+   "chg": -0.38,
+   "cu": "%",
+   "t": "11/26 05:00",
+   "src": "FMP"
+  },
+  {
+   "name": "브렌트유 ($/bbl)",
+   "v": 94.44,
+   "d": 2,
+   "chg": 3.33,
+   "cu": "%",
+   "t": "11/26 05:00",
+   "src": "FMP"
+  }
+ ],
+ "stocks": [
+  {
+   "sym": "NVDA",
+   "name": "엔비디아",
+   "v": 147.83,
+   "chg": -4.86,
+   "note": "전날 31.48% 급등 뒤 반락"
+  },
+  {
+   "sym": "MSFT",
+   "name": "마이크로소프트",
+   "v": 489.62,
+   "chg": -1.31,
+   "note": ""
+  },
+  {
+   "sym": "AAPL",
+   "name": "애플",
+   "v": 354.62,
+   "chg": 0.16,
+   "note": ""
+  },
+  {
+   "sym": "GOOGL",
+   "name": "알파벳",
+   "v": 271.92999,
+   "chg": -2.55,
+   "note": ""
+  },
+  {
+   "sym": "AMZN",
+   "name": "아마존",
+   "v": 244.94,
+   "chg": -2.91,
+   "note": ""
+  },
+  {
+   "sym": "META",
+   "name": "메타",
+   "v": 606.63,
+   "chg": 2.85,
+   "note": ""
+  },
+  {
+   "sym": "TSLA",
+   "name": "테슬라",
+   "v": 381.42499,
+   "chg": -0.85,
+   "note": ""
+  },
+  {
+   "sym": "AMD",
+   "name": "AMD",
+   "v": 402.84,
+   "chg": -2.52,
+   "note": "반도체주 동반 급락"
+  }
+ ],
+ "us": [
+  {
+   "cat": "증시",
+   "time": "11/25 06:01",
+   "title": "뉴욕증시 혼조… 다우 0.85%↑ 5만선 위 마감, 나스닥은 반도체 급락에 1.48%↓",
+   "body": "24일 다우지수는 0.85% 오른 50,018.70에 마감했지만 S&P 500은 0.50% 내린 7,201.09, 나스닥은 1.48% 내린 23,733.54였다. 전날 급반등을 이끈 반도체·AI주가 상승분을 되돌리며 기술 업종이 지수를 가장 크게 끌어내렸고 소매·제약주는 강세였다. 로이터는 행정부가 16개 교역국 과잉생산 조사 결과를 곧 내놓고 광범위한 품목에 새 관세를 매길 것으로 보인다고 소식통을 인용해 전했다.",
+   "links": [
+    {
+     "s": "Reuters(MarketScreener)",
+     "u": "https://www.marketscreener.com/news/nasdaq-s-p-500-end-lower-following-monday-s-nvidia-fueled-rally-ce7851dbdd81f720"
+    },
+    {
+     "s": "서울신문",
+     "u": "https://www.seoul.co.kr/news/economy/2026/11/25/20261125500004"
+    }
+   ]
+  },
+  {
+   "cat": "반도체",
+   "time": "11/25 06:20",
+   "title": "엔비디아 5.86%·마이크론 11.01%↓… 황 복귀 랠리 하루 만에 식고 필라델피아반도체 7.88%↓",
+   "body": "엔비디아는 전날 31.48% 급등한 뒤 이날 5.86% 내린 155.38달러로 마감했다. 마이크론(-11.01%), AMD(-8.86%), 인텔(-8.15%), 브로드컴(-3.98%)도 함께 밀리며 필라델피아 반도체지수가 7.88% 떨어졌다. 로이터는 투자자들이 황 CEO 복귀를 둘러싼 지배구조·정치적 위험을 따져보고 있다고 전했다.",
+   "links": [
+    {
+     "s": "StockTitan",
+     "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+    },
+    {
+     "s": "서울신문",
+     "u": "https://www.seoul.co.kr/news/economy/2026/11/25/20261125500004"
+    },
+    {
+     "s": "Reuters(MarketScreener)",
+     "u": "https://www.marketscreener.com/news/nasdaq-s-p-500-end-lower-following-monday-s-nvidia-fueled-rally-ce7851dbdd81f720"
+    }
+   ]
+  },
+  {
+   "cat": "실적",
+   "time": "11/25 06:16",
+   "title": "델, 3분기 매출 549억달러로 두 배 넘게 늘어… 연간 매출 전망 2,020억달러로 상향",
+   "body": "델의 3분기(10월 30일 마감) 매출은 549억4천만달러로 1년 전(270억1천만달러)의 두 배를 넘었고, 조정 EPS는 9.45달러로 시장 예상(6.55달러)을 크게 웃돌았다. AI 서버 매출은 291% 늘어난 220억3천만달러, AI 수주잔고는 사상 최대인 1,323억달러였다. 회사는 연간 매출 전망을 1,920억달러에서 2,020억달러로 올리고 250억달러 자사주 매입을 추가 승인했으며, 주가는 발표 전 정규장에서 12.0% 내린 295.57달러로 마감했다.",
+   "links": [
+    {
+     "s": "Investing.com 한국어",
+     "u": "https://kr.investing.com/news/earnings/article-2189440"
+    },
+    {
+     "s": "24/7 Wall St.",
+     "u": "https://247wallst.com/cards/dell-technologies-q3-2027-earnings-dell-01m87pfs2c9c73wyprgqr5d02e"
+    }
+   ]
+  },
+  {
+   "cat": "실적",
+   "time": "11/25 06:15",
+   "title": "HP, 4분기 매출 160억달러로 예상 상회… 시간외 14% 넘게 올랐다가 하락 전환",
+   "body": "HP의 회계 4분기 매출은 160억달러로 9.3% 늘어 예상(154억3천만달러)을 넘었고 조정 EPS는 0.83달러로 예상(0.75달러)을 웃돌았다. PC 부문 매출은 14% 늘었지만 판매 대수는 29% 줄었고, 2027회계연도 조정 EPS 전망은 3.15~3.45달러로 제시했다. 주가는 시간외에서 한때 14% 넘게 올랐다가 마지막 거래에서는 3.4% 하락으로 돌아섰다.",
+   "links": [
+    {
+     "s": "Investing.com 한국어",
+     "u": "https://kr.investing.com/news/earnings/article-2189466"
+    }
+   ]
+  },
+  {
+   "cat": "실적",
+   "time": "11/25 06:11",
+   "title": "워크데이, 3분기 실적 예상 웃돌았지만 4분기 구독 매출 전망 소폭 미달에 2.8%↓",
+   "body": "워크데이의 3분기 매출은 27억500만달러로 11.2% 늘었고 조정 EPS는 2.82달러로 예상(2.75달러)을 넘었다. 연간 구독 매출 전망은 99억5,800만달러로 올렸지만 4분기 구독 매출 전망 26억달러는 컨센서스(26억1천만달러)에 조금 못 미쳤다. 실적 발표 뒤 주가는 2.8% 하락했다.",
+   "links": [
+    {
+     "s": "Investing.com 한국어",
+     "u": "https://kr.investing.com/news/stock-market-news/article-2189427"
+    }
+   ]
+  },
+  {
+   "cat": "특징주",
+   "time": "11/25",
+   "title": "ADI 17.3%·HPE 16.33%↓… 아스테라랩스·코어위브 등 AI 하드웨어주 두 자릿수 급락",
+   "body": "아날로그디바이스(ADI)는 사상 최대 4분기 실적을 냈지만 17.3% 떨어진 313.16달러로 마감해 S&P 500 종목 가운데 낙폭이 가장 컸다. 전날 실적을 낸 HPE는 4분기 매출이 50% 늘어난 145억달러였지만 조정 총이익률이 2.2%p 낮아지며 16.33% 내린 40.18달러로 마감했다. 아스테라랩스(-14.3%)와 코어위브(-11.9%)도 기술주 전반의 매도에 밀렸다.",
+   "links": [
+    {
+     "s": "24/7 Wall St.",
+     "u": "https://247wallst.com/cards/every-one-of-the-day-s-five-biggest-losers-fell-double-digit-adi-session-movers-01m87pd82yqkjdw025st1r7gg8"
+    },
+    {
+     "s": "StockTitan",
+     "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+    },
+    {
+     "s": "Reuters(MarketScreener)",
+     "u": "https://www.marketscreener.com/news/nasdaq-s-p-500-end-lower-following-monday-s-nvidia-fueled-rally-ce7851dbdd81f720"
+    }
+   ]
+  },
+  {
+   "cat": "실적",
+   "time": "11/25",
+   "title": "애버크롬비·콜스 19%대, 딕스 14.60%·달러트리 11.18%↑… 소매주 실적·전망 상향에 급등",
+   "body": "애버크롬비앤피치는 3분기 매출이 11% 늘어난 14억달러로 사상 최대를 기록하고 이익 전망을 올려 19.68% 올랐다. 콜스(19.53%)는 연간 전망 상향, 딕스스포팅구즈(14.60%)는 연간 이익 전망 상향, 달러트리(11.18%)는 매출 6.9% 증가와 조정 이익 전망 상향으로 올랐다. 엠벡타도 회계 4분기 매출 13.1% 증가와 2027회계연도 첫 전망 제시에 40.64% 급등했다.",
+   "links": [
+    {
+     "s": "CNBC",
+     "u": "https://www.cnbc.com/2026/11/24/stocks-moving-the-most-today-live-updates.html"
+    },
+    {
+     "s": "StockTitan",
+     "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+    }
+   ]
+  },
+  {
+   "cat": "연준",
+   "time": "11/24",
+   "title": "윌리엄스 뉴욕연은 총재 \"인플레이션 너무 높다\"… 12월 0.25%p 인상 지지 시사",
+   "body": "윌리엄스 총재는 뉴욕 강연에서 인플레이션이 여전히 높아 긴축이 필요하다며 12월 8~9일 회의의 0.25%p 인상 쪽에 무게를 실었고, 필요하면 연속 인상도 배제하지 않겠다고 했다. 그는 올해 말 인플레이션을 3.5%로 보고 2028년에 2% 목표에 닿을 것으로 전망했으며, 현재 기준금리는 3.75~4.00%다. 로이터는 시장이 다음 달 0.25%p 인상을 대부분 반영한 채 25일 PCE 발표를 기다리고 있다고 전했다.",
+   "links": [
+    {
+     "s": "The Standard(로이터)",
+     "u": "https://www.thestandard.com.hk/finance/article/349426/Feds-Williams-says-inflation-still-too-high-signals-more-rate-hikes-possible"
+    },
+    {
+     "s": "Reuters(MarketScreener)",
+     "u": "https://www.marketscreener.com/news/nasdaq-s-p-500-end-lower-following-monday-s-nvidia-fueled-rally-ce7851dbdd81f720"
+    }
+   ]
+  },
+  {
+   "cat": "지표",
+   "time": "11/25 00:00",
+   "title": "美 11월 소비자신뢰지수 103.3으로 급등… 2년 가까이 만에 최고",
+   "body": "콘퍼런스보드의 11월 소비자신뢰지수는 103.3으로 전월(91.9)과 시장 예상(92.4)을 크게 웃돌았다. 로이터는 이 지수가 2년 가까이 만에 가장 높은 수준이라고 전했다.",
+   "links": [
+    {
+     "s": "The Conference Board(PR Newswire)",
+     "u": "https://www.prnewswire.com/news-releases/us-consumer-confidence-surged-in-november-302949447.html"
+    },
+    {
+     "s": "더페어",
+     "u": "https://www.thefairnews.co.kr/news/articleView.html?idxno=95385"
+    },
+    {
+     "s": "Reuters(MarketScreener)",
+     "u": "https://www.marketscreener.com/news/nasdaq-s-p-500-end-lower-following-monday-s-nvidia-fueled-rally-ce7851dbdd81f720"
+    }
+   ]
+  },
+  {
+   "cat": "IPO",
+   "time": "11/25 01:59",
+   "title": "앤트로픽 주가, 공모가 83달러 밑으로… 정오 무렵 12.60% 내린 76.60달러",
+   "body": "11월 19일 공모가 83달러로 상장한 앤트로픽은 24일 정오 무렵 12.60% 내린 76.60달러에 거래되며 공모가를 밑돌았고, 종가 기준으로는 6.54% 하락했다. XTB의 캐슬린 브룩스는 앤트로픽 주가 하락이 알파벳·아마존 같은 대형 투자사의 실적에도 부담이 될 수 있다고 봤다.",
+   "links": [
+    {
+     "s": "파이낸셜뉴스",
+     "u": "https://www.fnnews.com/news/202611250140018986"
+    },
+    {
+     "s": "서울신문",
+     "u": "https://www.seoul.co.kr/news/economy/2026/11/25/20261125500004"
+    },
+    {
+     "s": "Alliance News(MarketScreener)",
+     "u": "https://www.marketscreener.com/news/miners-peg-back-ftse-100-while-anthropic-slumps-ce7851dbda80fe22"
+    }
+   ]
+  },
+  {
+   "cat": "원자재",
+   "time": "11/25",
+   "title": "금속 가격 동반 약세… 은 5.1%·구리 5.6%↓, 금은 온스당 3,566.77달러",
+   "body": "얼라이언스뉴스의 런던 마감 기사 기준으로 금 가격은 온스당 3,566.77달러였고 은은 5.1%, 구리는 5.6% 떨어졌다. 같은 기사에서 브렌트유는 배럴당 89.75달러, 미 국채 10년물 금리는 4.89%였다. 시장은 12월 9일 연준 회의에서 0.25%p 추가 인상을 예상하고 있다고 이 매체는 전했다.",
+   "links": [
+    {
+     "s": "Alliance News(MarketScreener)",
+     "u": "https://www.marketscreener.com/news/miners-peg-back-ftse-100-while-anthropic-slumps-ce7851dbda80fe22"
+    }
+   ]
+  }
+ ],
+ "us_more": [
+  {
+   "time": "11/24",
+   "title": "베선트, 대이란 추가 제재·호르무즈 경고… 24일 장전 美 지수선물 하락",
+   "s": "Benzinga",
+   "u": "https://www.benzinga.com/markets/equities/26/11/63569914/stock-market-today-dow-sp-500-futures-fall-after-scott-bessent-unveils-fresh-iran-sanctions-hormuz-warnings-hpe-smtc-dell-in-focus"
+  },
+  {
+   "time": "11/24",
+   "title": "美 국채금리, 윌리엄스 인플레 경고 뒤 소폭 하락… 5년물 입찰 대기",
+   "s": "CNBC",
+   "u": "https://www.cnbc.com/2026/11/24/treasury-yields-bonds-inflation.html"
+  },
+  {
+   "time": "11/24 20:33",
+   "title": "CME 12월 0.25%p 인상 확률 95.3%… 내년 1월 추가 인상 확률 49%→69%",
+   "s": "TheStreet",
+   "u": "https://www.thestreet.com/fed/nvidia-rally-fed-rate-hike-bets-december-2026"
+  },
+  {
+   "time": "11/24",
+   "title": "월가, 엔비디아·텍사스인스트루먼트·팔로알토 투자의견·목표가 상향(23일)",
+   "s": "뉴스핌",
+   "u": "https://www.newspim.com/news/view/20261124000081"
+  },
+  {
+   "time": "11/24",
+   "title": "브렌트유 89.08달러, 한 달 새 24% 하락… 29일 OPEC+ 회의 앞둬",
+   "s": "FinanceFeeds",
+   "u": "https://financefeeds.com/brent-crude-oil-price-89-08-tuesday-24-percent-monthly-slide-opec-plus-29-november-bull-92-bear-86/"
+  },
+  {
+   "time": "11/25 06:10",
+   "title": "오토데스크, 3분기 EPS 3.20달러로 예상 상회·연간 전망 상향에도 시간외 약 4%↓",
+   "s": "Investing.com 한국어",
+   "u": "https://kr.investing.com/news/transcripts/article-2189424"
+  }
+ ],
+ "eu": [
+  {
+   "cat": "증시",
+   "time": "11/25 03:29",
+   "title": "유럽증시 하락 마감… STOXX 600 0.66%↓ 632.77, 기술주 3% 가까이 밀려",
+   "body": "24일 STOXX 600은 전날 5월 초 이후 최대 상승 뒤 0.66% 내린 632.77에 마감했다. 독일 DAX는 1.31% 내린 25,005.51, 프랑스 CAC 40은 0.05%, 영국 FTSE 100은 0.13% 하락했다. 업종별로는 전날 4% 넘게 오른 기술주가 3% 가까이 떨어지고 광산주가 5% 가까이 밀린 반면 헬스케어는 2% 가까이 올랐다.",
+   "links": [
+    {
+     "s": "RTTNews",
+     "u": "https://www.rttnews.com/story.aspx?Id=3717648"
+    },
+    {
+     "s": "Reuters(MarketScreener)",
+     "u": "https://www.marketscreener.com/news/european-shares-end-lower-as-tech-rally-fades-sanofi-gains-ce7851dbdd89f025"
+    },
+    {
+     "s": "아나돌루통신(UA.NEWS 전재)",
+     "u": "https://ua.news/en/dovkolo-svitu/evropeiski-indeksi-znizilisia-na-tli-padinnia-aktsii-virobnikiv-chipiv-anadolu-agency"
+    }
+   ]
+  },
+  {
+   "cat": "반도체",
+   "time": "11/25 02:19",
+   "title": "유럽 반도체주 급락… 아익스트론 16.3%·ST마이크로 10.22%·인피니언 9%↓",
+   "body": "아익스트론은 UBS가 투자의견을 매도로 낮추자 16.3% 급락했다. 인피니언은 9% 넘게, ASM인터내셔널은 8% 넘게 떨어졌고 ST마이크로일렉트로닉스(-10.22%)와 BE세미컨덕터(-8.79%)도 크게 밀렸다. 비철금속 업체 아우루비스도 14.97% 하락했다.",
+   "links": [
+    {
+     "s": "MLQ.ai",
+     "u": "https://mlq.ai/news/european-stocks-close-lower-as-infineon-and-miners-slide-sanofi-jumps-on-its-41-billion-insmed-deal/"
+    },
+    {
+     "s": "Reuters(MarketScreener)",
+     "u": "https://www.marketscreener.com/news/european-shares-end-lower-as-tech-rally-fades-sanofi-gains-ce7851dbdd89f025"
+    }
+   ]
+  },
+  {
+   "cat": "M&A",
+   "time": "11/25 02:19",
+   "title": "사노피, 美 인스메드 410억달러에 인수… 주가 9.76% 급등해 STOXX 600 1위",
+   "body": "사노피는 인스메드를 주당 175달러, 총 약 410억달러에 현금 인수하기로 했으며 거래는 2027년 상반기에 마무리될 예정이다. 벨렌 가리호 CEO 체제의 최대 거래로, 사노피 주가는 파리에서 9.76% 오른 93.58유로로 마감했다. 인스메드는 뉴욕에서 14.13% 오른 170.15달러로 제안가보다 약 4.85달러 낮게 끝났다.",
+   "links": [
+    {
+     "s": "Reuters(MarketScreener)",
+     "u": "https://www.marketscreener.com/news/european-shares-end-lower-as-tech-rally-fades-sanofi-gains-ce7851dbdd89f025"
+    },
+    {
+     "s": "StockTitan",
+     "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+    },
+    {
+     "s": "Ideal Investisseur",
+     "u": "https://www.ideal-investisseur.fr/en/stocks-cryptocurrencies/cac-40-sanofi-soars-nearly-10-at-close-while-semiconductors-weigh-down-paris-session-34071.html"
+    }
+   ]
+  },
+  {
+   "cat": "증시",
+   "time": "11/25",
+   "title": "런던 FTSE 100 0.13%↓ 10,467.07… 광산·은행주 약세, 컴퍼스 4.2%↑",
+   "body": "FTSE 100은 0.13% 내린 10,467.07, FTSE 250은 0.8% 내린 23,858.88로 마감했다. 앤토파가스타(-8.1%)·앵글로아메리칸(-5.7%)·글렌코어(-4.8%) 등 광산주와 HSBC(-2.7%)·바클레이스(-2.5%) 등 은행주가 지수를 끌어내렸고 아스트라제네카는 2.9% 올랐다. 컴퍼스그룹은 연간 매출이 예상을 웃돌고 미국 1차 상장 이전 계획을 밝혀 4.2% 올랐고, AO월드는 하반기 수요 부진 경고에 9.4% 급락했다.",
+   "links": [
+    {
+     "s": "BBN Times",
+     "u": "https://www.bbntimes.com/financial/ftse-100-today-london-slips-0-13-to-10-467-07-as-miners-weigh"
+    },
+    {
+     "s": "Reuters(Euronext 전재)",
+     "u": "https://live.euronext.com/en/financial-news/uks-ftse-100-slips-miners-bank-stocks-weigh"
+    },
+    {
+     "s": "Alliance News(MarketScreener)",
+     "u": "https://www.marketscreener.com/news/miners-peg-back-ftse-100-while-anthropic-slumps-ce7851dbda80fe22"
+    }
+   ]
+  }
+ ],
+ "eu_more": [
+  {
+   "time": "11/25 02:34",
+   "title": "파리 CAC 40 0.05%↓ 8,040.49… 아르셀로미탈 7.61%·르그랑 5.57%↓, 오랑주 2.72%↑",
+   "s": "Ideal Investisseur",
+   "u": "https://www.ideal-investisseur.fr/en/stocks-cryptocurrencies/cac-40-sanofi-soars-nearly-10-at-close-while-semiconductors-weigh-down-paris-session-34071.html"
+  },
+  {
+   "time": "11/25",
+   "title": "伊 FTSE MIB 1.84%↓ 48,121.19·스페인 IBEX 35 0.86%↓ 19,015.80",
+   "s": "아나돌루통신(UA.NEWS 전재)",
+   "u": "https://ua.news/en/dovkolo-svitu/evropeiski-indeksi-znizilisia-na-tli-padinnia-aktsii-virobnikiv-chipiv-anadolu-agency"
+  },
+  {
+   "time": "11/25",
+   "title": "英 소매업체 판매 4년 만에 최고… 시장은 BoE 12월 인상 확률 83% 반영",
+   "s": "Reuters(Euronext 전재)",
+   "u": "https://live.euronext.com/en/financial-news/uks-ftse-100-slips-miners-bank-stocks-weigh"
+  },
+  {
+   "time": "11/24",
+   "title": "BoE 그린 위원 \"디스인플레이션 과정 멈췄다\"",
+   "s": "FXStreet",
+   "u": "https://www.fxstreet.com/news/boes-greene-disinflation-process-has-stalled-202611241321"
+  },
+  {
+   "time": "11/24",
+   "title": "파운드/달러, 19개월 만에 최저로 밀려",
+   "s": "Exchange Rates UK",
+   "u": "https://www.exchangerates.org.uk/news/47836/2026-11-24-pound-to-dollar-price-forecast-gbp-at-19-month-low.html"
+  }
+ ],
+ "kr_am": [],
+ "intra": [
+  {
+   "time": "11/26 04:16",
+   "reg": "EU",
+   "cat": "증시",
+   "title": "유럽증시 하락 마감… STOXX 600 1.06%↓ 626.03, ASML 5.8%·인피니언 6.5%↓",
+   "s": "Chip Dispatch",
+   "u": "https://chipdispatch.com/articles/european-chip-stocks-slump-as-nasdaq-s-4-ai-rout-crosses-the-atlantic"
+  },
+  {
+   "time": "11/26 03:48",
+   "reg": "US",
+   "cat": "증시",
+   "title": "美 오후 다우 0.04%↑ 전환·S&P 500 1.02%·나스닥 1.83%↓… 장 초반 낙폭 크게 만회",
+   "s": "ABC News",
+   "u": "https://abcnews.com/Business/stocks-tumble-tech-sell-off-resumes-nvidia-falls/story?id=138442070"
+  },
+  {
+   "time": "11/26 02:40",
+   "reg": "EU",
+   "cat": "ECB",
+   "title": "유럽 은행주 3%↓·자동차주 1.5%↑… 시장, ECB 12월 0.25%p 인상 확률 87% 반영",
+   "s": "IUX24",
+   "u": "https://www.iux24.com/news/european-stocks-drop-as-rate-hike-fears-and-ai-doubts-hit-banks-and-tech-sectors-20261125/"
+  },
+  {
+   "time": "11/26 02:17",
+   "reg": "US",
+   "cat": "증시",
+   "title": "美 동부 11시31분 나스닥 3.98%↓ 22,789·S&P 500 2.69%↓… 약세장 진입선 3% 앞, AMD 9.56%·엔비디아 8.69%↓",
+   "s": "The Motley Fool",
+   "u": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-midday-nov-25-nasdaq-plunges-4-as-ai-sell-off-deepens-and-inflation-remains-stubborn/"
+  },
+  {
+   "time": "11/26 01:00",
+   "reg": "글로벌",
+   "cat": "원자재",
+   "title": "브렌트유 이틀째 올라 배럴당 93달러 위… 사우디, 라스타누라 겨냥 드론 4대 요격",
+   "s": "Trading Economics",
+   "u": "https://tradingeconomics.com/commodity/brent-crude-oil/news/604409"
+  },
+  {
+   "time": "11/26 00:58",
+   "reg": "US",
+   "cat": "금리",
+   "title": "美 10년물 국채금리 4.81%로 9월 이후 최저… 4주 새 17.4bp 하락",
+   "s": "Trading Economics",
+   "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/604405"
+  },
+  {
+   "time": "11/26 00:56",
+   "reg": "US",
+   "cat": "실적",
+   "title": "디어 분기 EPS 3.89달러로 예상치 4.05달러 밑돌아… 리오토는 매출총이익률 17%로 개선(전분기 11%)",
+   "s": "24/7 Wall St.",
+   "u": "https://247wallst.com/investing/2026/11/25/stock-market-today-huangover-is-causing-headache-for-tech-stocks/"
+  },
+  {
+   "time": "11/25 23:32",
+   "reg": "US",
+   "cat": "지표",
+   "title": "美 10월 근원 PCE 3.3%(예상 3.2%)·3분기 GDP 4.3%로 상향… 개장 직후 나스닥 3.2%↓",
+   "s": "Yahoo Finance",
+   "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+  },
+  {
+   "time": "11/25 23:05",
+   "reg": "글로벌",
+   "cat": "원자재",
+   "title": "금값 온스당 3,500달러 아래로… 2025년 8월 말 이후 최저, 달러 강세·긴축 경계",
+   "s": "Trading Economics",
+   "u": "https://tradingeconomics.com/commodity/gold/news/604358"
+  },
+  {
+   "time": "11/25 22:35",
+   "reg": "KR",
+   "cat": "통상",
+   "title": "美, 한국 등 14개 경제주체에 '과잉생산 관세' 예고… USTR, 한국·일본·EU 등 15% 상한 유지",
+   "s": "서울신문",
+   "u": "https://www.seoul.co.kr/news/international/2026/11/25/20261125500339"
+  },
+  {
+   "time": "11/25 22:09",
+   "reg": "KR",
+   "cat": "금융",
+   "title": "한국투자저축은행 고객 8만6,433명 개인정보 유출… 저축은행 업권 최대 규모",
+   "s": "서울신문",
+   "u": "https://www.seoul.co.kr/news/economy/finance/2026/11/26/20261126029004"
+  },
+  {
+   "time": "11/25 21:48",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "코스피200 야간선물 21시 41분 706.50… 정규장 종가 724.76 대비 2.52%↓",
+   "s": "콕스뉴스",
+   "u": "https://www.coxnews.co.kr/news/articleView.html?idxno=6964"
+  },
+  {
+   "time": "11/25 19:57",
+   "reg": "KR",
+   "cat": "정책",
+   "title": "산업통상부, 한미 합의 '관세율 15%' 사수 방침… 강제노동 관세 12.5%에 2.5%p까지만 허용",
+   "s": "서울신문",
+   "u": "https://www.seoul.co.kr/news/economy/2026/11/26/20261126001004"
+  },
+  {
+   "time": "11/25 19:45",
+   "reg": "US",
+   "cat": "선물",
+   "title": "美 지수선물 새벽 급락… 동부 5시44분 나스닥100 2.55%·S&P 500 1.54%·다우 0.82%↓",
+   "s": "TipRanks",
+   "u": "https://www.tipranks.com/news/stock-market-today-nov-25-wall-street-braces-for-inflation-data-after-tech-led-selloff"
+  },
+  {
+   "time": "11/25 18:24",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "코스피 시총 하루 257조 증발… 대만 가권 4.80%·닛케이 2.78%↓, 이틀 합산 코스피 0.23%↓",
+   "s": "파이낸셜뉴스",
+   "u": "https://www.fnnews.com/news/202611251824384069"
+  },
+  {
+   "time": "11/25 18:22",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "VKOSPI 58.52로 0.12%↑… 25일 매도 사이드카는 올해 33번째(전체 사이드카 62번째)",
+   "s": "서울신문",
+   "u": "https://www.seoul.co.kr/news/economy/securities/2026/11/25/20261125500322"
+  },
+  {
+   "time": "11/25 18:00",
+   "reg": "KR",
+   "cat": "공시",
+   "title": "로체시스템즈, 246억원 공급계약 공시… 2025년 매출의 19.70%, 상대방은 영업기밀로 비공개",
+   "s": "스페셜타임스",
+   "u": "https://www.specialtimes.co.kr/news/articleView.html?idxno=490250"
+  },
+  {
+   "time": "11/25 18:00",
+   "reg": "KR",
+   "cat": "금리",
+   "title": "국고채 3년물 3.583%(5.7bp↓)·10년물 3.761%(5.8bp↓) 마감… 코스피 6% 급락일",
+   "s": "블록미디어",
+   "u": "https://www.blockmedia.co.kr/archives/1170476"
+  },
+  {
+   "time": "11/25 17:00",
+   "reg": "KR",
+   "cat": "공시",
+   "title": "주요 공시: SK㈜ 에코플랜트 주식 1조3,596억 장외매수 완료, 서진시스템 블룸에너지와 1,656억 계약",
+   "s": "세이프머니",
+   "u": "https://www.safemoney.co.kr/news/articleView.html?idxno=31477"
+  },
+  {
+   "time": "11/25 16:41",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "코스피 종가 1월 13일 이후 212거래일 만의 최저… 10조7,600억 증안펀드는 투입 시점 불투명",
+   "s": "이뉴스투데이",
+   "u": "https://www.enewstoday.co.kr/news/articleView.html?idxno=2497088"
+  },
+  {
+   "time": "11/25 15:33",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "코스피 308.52p(6.16%) 내린 4,697.51 마감… 하루 만에 5,000선 내줘(전날 5,006.03)",
+   "s": "이투데이",
+   "u": "https://www.etoday.co.kr/news/view/2652886"
+  },
+  {
+   "time": "11/25 15:33",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "코스닥 15.24p(2.29%) 내린 650.64로 장 마감",
+   "s": "이투데이",
+   "u": "https://www.etoday.co.kr/news/view/2652888"
+  },
+  {
+   "time": "11/25 14:39",
+   "reg": "KR",
+   "cat": "수급",
+   "title": "2시 37분 코스피 6.38%↓ 4,686.61… 외국인 2조1,981억·기관 2,444억 순매도, 개인 1조9,947억 순매수",
+   "s": "한국경제",
+   "u": "https://www.hankyung.com/article/202611259565i"
+  },
+  {
+   "time": "11/25 14:39",
+   "reg": "KR",
+   "cat": "특징주",
+   "title": "코스피 4,700선 붕괴… 삼성전기 12.9%·SK스퀘어 11.3%·SK하이닉스 10.7%↓, 알테오젠 4.8%↑",
+   "s": "아시아경제",
+   "u": "https://view.asiae.co.kr/article/2026112514392457675"
+  },
+  {
+   "time": "11/25 14:19",
+   "reg": "KR",
+   "cat": "ETF",
+   "title": "오후 2시5분 KODEX 200 6.42%↓ 7만3,610원… 거래대금 1조2,263억원",
+   "s": "잡포스트",
+   "u": "https://www.job-post.co.kr/news/articleView.html?idxno=240861"
+  },
+  {
+   "time": "11/25 14:17",
+   "reg": "KR",
+   "cat": "특징주",
+   "title": "코스닥 파수AI 오후 2시5분 29.95% 오른 7,550원 상한가… 거래량 635만주",
+   "s": "잡포스트",
+   "u": "https://www.job-post.co.kr/news/articleView.html?idxno=240856"
+  },
+  {
+   "time": "11/25 14:14",
+   "reg": "KR",
+   "cat": "특징주",
+   "title": "이수페타시스 오후 2시5분 11.55%↓ 6만5,100원… 장중 6만4,800원까지, 거래대금 475억원",
+   "s": "잡포스트",
+   "u": "https://www.job-post.co.kr/news/articleView.html?idxno=240847"
+  },
+  {
+   "time": "11/25 13:30",
+   "reg": "KR",
+   "cat": "산업",
+   "title": "방미통위·KISA 실태조사: 2025년 국내 앱마켓 거래액 10조5,925억원, 9.4% 늘어 첫 10조 돌파",
+   "s": "아주경제",
+   "u": "https://www.ajunews.com/view/20261125131250255"
+  },
+  {
+   "time": "11/25 13:29",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "13시 24분 코스피 5.57%↓ 4,727.02(장중 4,687.51)·코스닥 1.88%↓… 외국인 1조6,151억 순매도",
+   "s": "아주경제",
+   "u": "https://www.ajunews.com/view/20261125132414270"
+  },
+  {
+   "time": "11/25 12:21",
+   "reg": "KR",
+   "cat": "수급",
+   "title": "12시 13분 코스피 5.93%↓ 4,709.16… 외국인 1조4,164억·기관 1,026억 순매도, 개인 1조2,483억 순매수",
+   "s": "프리진경제",
+   "u": "https://www.freezine.co.kr/news/articleView.html?idxno=18660"
+  },
+  {
+   "time": "11/25 11:49",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "11시 22분 코스피 5.68%↓ 4,721.73… 삼성전자 9.19%↓ 17만2천원·SK하이닉스 8.55%↓ 105만9천원",
+   "s": "한국경제",
+   "u": "https://hankyung.com/article/2026112591656"
+  },
+  {
+   "time": "11/25 11:36",
+   "reg": "KR",
+   "cat": "수급",
+   "title": "11시 10분 코스피 5.26%↓ 4,742.72·코스닥 2.37%↓… 외국인 1조997억 순매도, 제약·화장품 강세",
+   "s": "세계일보",
+   "u": "https://www.segye.com/newsView/20261125507543"
+  },
+  {
+   "time": "11/25 10:34",
+   "reg": "KR",
+   "cat": "수급",
+   "title": "장중 코스피 4.39%↓ 4,786.38·코스닥 1.41%↓… 외국인 8,650억·기관 1,814억 순매도, 개인 9,183억 순매수",
+   "s": "CBC뉴스",
+   "u": "https://cbci.co.kr/news/articleView.html?idxno=630513"
+  },
+  {
+   "time": "11/25 10:17",
+   "reg": "KR",
+   "cat": "특징주",
+   "title": "10시 10분 코스피 4.78%↓·코스닥 2.70%↓… 뷰티스킨 24%↑·실리콘투 9%대↑, 다올투자증권 장중 27%대↑",
+   "s": "더페어",
+   "u": "https://www.thefairnews.co.kr/news/articleView.html?idxno=95434"
+  },
+  {
+   "time": "11/25 10:00",
+   "reg": "KR",
+   "cat": "수급",
+   "title": "9시 30분 코스피 4.87%↓ 4,762.28… 장 초반 외국인 5,326억·기관 570억 순매도, 개인 5,536억 순매수",
+   "s": "동행미디어 시대",
+   "u": "https://www.sidae.com/article/2026112509253937266"
+  },
+  {
+   "time": "11/25 09:30",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "코스피 9시 12분 4.96%↓ 4,757.5·코스닥 9시 19분 3.45%↓ 642.88… 삼성전자 7.34%·SK하이닉스 6.99%↓",
+   "s": "오피니언뉴스",
+   "u": "https://www.opinionnews.co.kr/news/articleView.html?idxno=147449"
+  },
+  {
+   "time": "11/25 09:21",
+   "reg": "KR",
+   "cat": "특징주",
+   "title": "삼성전기 7.69%·SK스퀘어 7.27%↓, 코스닥 주성엔지니어링 8.61%·이오테크닉스 8.24%↓… 셀트리온 1.91%↑",
+   "s": "글로벌이코노믹",
+   "u": "https://www.g-enews.com/article/Securities/2026/11/202611250914034799923c501012_1"
+  },
+  {
+   "time": "11/25 09:16",
+   "reg": "KR",
+   "cat": "수급",
+   "title": "9시 8분께 코스피 매도 사이드카… 9시 10분 외국인 2,431억·기관 229억 순매도, 개인 2,530억 순매수",
+   "s": "디지털타임스",
+   "u": "https://www.dt.co.kr/article/12097089"
+  },
+  {
+   "time": "11/25 09:15",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "코스피 4,809.00(3.94%↓) 출발 뒤 9시 8분 4,777.10까지 밀려… 코스닥 3.14%↓ 644.94",
+   "s": "아주경제",
+   "u": "https://www.ajunews.com/view/20261125091047180"
+  },
+  {
+   "time": "11/25 08:35",
+   "reg": "KR",
+   "cat": "리포트",
+   "title": "유진 \"매수세 비반도체로 확대 고무적\"·유안타 \"외국인 순매수 지속성 확인 필요\"",
+   "s": "오피니언뉴스",
+   "u": "https://www.opinionnews.co.kr/news/articleView.html?idxno=147445"
+  },
+  {
+   "time": "11/25 08:15",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "코스피200 야간선물 4.56%↓… 미래에셋 \"반도체 중심 하락 출발\" 전망, 마이크론 의견 하향도 부담",
+   "s": "아시아경제",
+   "u": "https://view.asiae.co.kr/article/2026112508120586403"
+  },
+  {
+   "time": "11/25 08:14",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "엔비디아 SEC 회계 조사·12월 3일 황 CEO 상원 청문회, 증시 하락 압력 요인으로 거론",
+   "s": "재경일보",
+   "u": "https://news.jkn.co.kr/post/1120469"
+  },
+  {
+   "time": "11/25 07:56",
+   "reg": "KR",
+   "cat": "리포트",
+   "title": "키움증권 \"하락 출발 뒤 저가 매수 유입\"… 전일 급등은 비관론 되돌림 초기로 해석",
+   "s": "이투데이",
+   "u": "https://www.etoday.co.kr/news/view/2652515"
+  },
+  {
+   "time": "11/25 07:36",
+   "reg": "KR",
+   "cat": "환율",
+   "title": "우리은행, 원/달러 1,335~1,347원 예상… 27일 삼성전자 배당 외국인 몫 13.8조 역송금 경계",
+   "s": "이투데이",
+   "u": "https://www.etoday.co.kr/news/view/2652497"
+  },
+  {
+   "time": "11/25 07:05",
+   "reg": "KR",
+   "cat": "해외선물",
+   "title": "개장 전 해외 무기한선물서 EWY 4.41%↓… 삼성전자 6.79%·SK하이닉스 6.38%↓(바이낸스)",
+   "s": "증권플러스",
+   "u": "https://newsroom.stockplus.com/breaking-news/44917"
+  },
+  {
+   "time": "11/25 07:00",
+   "reg": "KR",
+   "cat": "리포트",
+   "title": "삼성증권, 내년 금 연평균 3,800달러 전망… 올해 추정치(4,400달러)보다 13.6% 낮아",
+   "s": "아시아경제",
+   "u": "https://core.asiae.co.kr/article/2026112419144359663"
+  },
+  {
+   "time": "11/25 06:45",
+   "reg": "KR",
+   "cat": "기업",
+   "title": "현대차, 6월 1일 신고가 78만3천원서 23일까지 67.0% 하락… 같은 기간 코스피 46.4%↓",
+   "s": "아시아경제",
+   "u": "https://core.asiae.co.kr/article/2026112414060268650"
+  },
+  {
+   "time": "11/25 06:00",
+   "reg": "KR",
+   "cat": "산업",
+   "title": "한경협 조사: EU 수출기업 43.1% 재생원료 의무화 규제 파악 못해… 55.9%는 대응계획 없어",
+   "s": "아시아경제",
+   "u": "https://core.asiae.co.kr/article/2026112414060975017"
+  },
+  {
+   "time": "11/25 03:41",
+   "reg": "EU",
+   "cat": "증시",
+   "title": "유럽 광산주 5% 가까이 급락·헬스케어 2%↑… 런던 앤토파가스타 8.1%·글렌코어 4.8%↓",
+   "s": "Irish Times",
+   "u": "https://www.irishtimes.com/business/2026/11/24/european-shares-fall-as-tech-rally-fades-after-jensen-huang-jolt/"
+  },
+  {
+   "time": "11/25 02:55",
+   "reg": "EU",
+   "cat": "증시",
+   "title": "유럽증시 하락 마감… STOXX 600 0.66%↓ 632.77·DAX 1.31%↓ 25,005.51, FTSE MIB 1.84%↓",
+   "s": "아나돌루통신(UA.NEWS 전재)",
+   "u": "https://ua.news/en/dovkolo-svitu/evropeiski-indeksi-znizilisia-na-tli-padinnia-aktsii-virobnikiv-chipiv-anadolu-agency"
+  },
+  {
+   "time": "11/25 02:50",
+   "reg": "US",
+   "cat": "정책",
+   "title": "美 행정부, 대법원이 무효화한 관세 대체할 국가별 신규 관세 이르면 24일 발표… 中·EU 등 대상(소식통)",
+   "s": "Bloomberg",
+   "u": "https://www.bloomberg.com/news/articles/2026-11-24/us-tech-stocks-poised-to-slide-as-ai-caution-returns-after-rally"
+  },
+  {
+   "time": "11/25 02:45",
+   "reg": "EU",
+   "cat": "증시",
+   "title": "유럽증시 기술주 약세 마감… 아익스트론 UBS '매도' 하향, 사노피는 인스메드 410억달러 인수에 강세",
+   "s": "ad-hoc-news",
+   "u": "https://www.ad-hoc-news.de/boerse/news/marktberichte/euro-stoxx-50-closes-1-17-prozent-lower-as-tech-rally-fades/70550685"
+  },
+  {
+   "time": "11/25 02:08",
+   "reg": "US",
+   "cat": "특징주",
+   "title": "ADI, 실적 예상 상회에도 18%↓… 핀터레스트 10%↑·카이메라는 증액 유상증자에도 10%↑",
+   "s": "CNBC",
+   "u": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
+  },
+  {
+   "time": "11/25 02:00",
+   "reg": "US",
+   "cat": "증시",
+   "title": "美 정오 S&P 500 1.01%·나스닥 2.38%↓, 다우 0.19%↑… 코어위브·IREN 10%대 급락",
+   "s": "24/7 Wall St.",
+   "u": "https://247wallst.com/cards/the-dow-is-green-at-midday-while-the-nasdaq-is-down-2-4-an-gspc-market-bell-01m8783yprb721wq30yw34g3az"
+  },
+  {
+   "time": "11/25 00:02",
+   "reg": "US",
+   "cat": "특징주",
+   "title": "美 오전 10시(동부) AMD 8.0%·마이크론 7.7%·ADI 15.6%↓… 애버크롬비 22.5%↑",
+   "s": "StockTitan",
+   "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+  },
+  {
+   "time": "11/25 00:00",
+   "reg": "US",
+   "cat": "지표",
+   "title": "美 11월 소비자신뢰지수 103.3으로 11.4p 급등… 현재상황 132.8·기대지수 83.6",
+   "s": "The Conference Board(PR Newswire)",
+   "u": "https://www.prnewswire.com/news-releases/us-consumer-confidence-surged-in-november-302949447.html"
+  }
+ ],
+ "kr": [
+  {
+   "cat": "증시",
+   "time": "11/25",
+   "title": "코스피 6.16% 급락해 4,697.51… 하루 만에 5,000선 내줘, 코스닥도 2.29%↓",
+   "body": "코스피는 전 거래일보다 308.52포인트(6.16%) 내린 4,697.51, 코스닥은 15.24포인트(2.29%) 내린 650.64에 장을 마쳤다. 코스피는 3.94% 내린 4,809.00에 출발해 장중 4,672.55까지 밀렸다. 아주경제 집계로 유가증권시장 시가총액은 하루 새 251조2,796억원 줄어 3,853조5,432억원이 됐다.",
+   "links": [
+    {
+     "s": "아주경제",
+     "u": "https://www.ajunews.com/view/20261125152058735"
+    },
+    {
+     "s": "위키트리",
+     "u": "https://www.wikitree.co.kr/articles/1177728"
+    },
+    {
+     "s": "아주경제",
+     "u": "https://ajunews.com/view/20261125154545844"
+    }
+   ]
+  },
+  {
+   "cat": "수급",
+   "time": "11/25 15:50",
+   "title": "외국인 코스피서 1조8,993억원 순매도… 개인은 1조4,232억원 받아내",
+   "body": "유가증권시장에서 외국인은 1조8,993억원, 기관은 7억원어치를 순매도했고 개인은 1조4,232억원을 순매수했다. 코스닥에서는 개인이 346억원을 순매도했고 외국인(12억원)과 기관(269억원)은 순매수했다. 오전 9시 8분께 코스피 매도 사이드카가 발동됐으며, MTN은 올해 62번째 코스피 사이드카라고 전했다.",
+   "links": [
+    {
+     "s": "MTN 머니투데이방송",
+     "u": "https://news.mtn.co.kr/article/2026112515500634760"
+    },
+    {
+     "s": "아주경제",
+     "u": "https://ajunews.com/view/20261125154545844"
+    },
+    {
+     "s": "뉴스핌",
+     "u": "https://www.newspim.com/news/view/20261125001078"
+    }
+   ]
+  },
+  {
+   "cat": "반도체",
+   "time": "11/25 16:06",
+   "title": "삼성전자 9.87%↓ 시총 1,000조 아래로… SK하이닉스 11.05%·삼성전기 12% 급락",
+   "body": "삼성전자는 9.87% 내린 17만700원에 마감해 시가총액이 997조9,598억원으로 줄었고, SK하이닉스는 11.05% 내린 103만원이었다. 삼성전기(-12.00%), SK스퀘어(-11.19%), 삼성전자우(-10.19%)도 두 자릿수로 떨어졌다. 뉴스핌은 BNP파리바가 메모리 공급 과잉을 이유로 마이크론 투자의견을 중립으로 낮추고 목표가를 크게 내린 것이 국내 반도체주 심리를 눌렀다고 전했다.",
+   "links": [
+    {
+     "s": "아주경제",
+     "u": "https://ajunews.com/view/20261125154545844"
+    },
+    {
+     "s": "뉴스핌",
+     "u": "https://www.newspim.com/news/view/20261125001078"
+    }
+   ]
+  },
+  {
+   "cat": "업종",
+   "time": "11/25 16:02",
+   "title": "급락장 속 바이오만 강세… 삼성바이오로직스 5.66%·알테오젠 6.20%↑",
+   "body": "유가증권시장에서 삼성바이오로직스(+5.66%)와 셀트리온(+3.83%)이 올랐고, 코스닥에서는 알테오젠(+6.20%), 삼천당제약(+5.05%), HLB(+1.99%)가 상승했다. 코스닥의 주성엔지니어링(-11.42%), 심텍(-6.51%), 에코프로(-5.01%)는 크게 내렸다. 신한투자증권은 헬스케어로 순환매 자금이 유입됐고 일부 금융·통신주가 상대적으로 버텼다고 분석했다.",
+   "links": [
+    {
+     "s": "뉴스핌",
+     "u": "https://www.newspim.com/news/view/20261125001078"
+    },
+    {
+     "s": "아주경제",
+     "u": "https://ajunews.com/view/20261125154545844"
+    }
+   ]
+  },
+  {
+   "cat": "정책",
+   "time": "11/25 14:43",
+   "title": "정부, 증안펀드 확대 검토… 산업은행이 증권사별 추가 출자 여력 취합",
+   "body": "한국경제에 따르면 산업은행은 25일 대형 증권사들에 공문을 보내 금융회사별 추가 출자 가능액을 모으기 시작했다. 현재 증안펀드 출자약정액은 2020년 조성 때의 10조7,600억원으로 코스피 시가총액의 0.3%에도 못 미친다는 지적이 나온다. 이형일 부총리 겸 재정경제부 장관은 확대 여부를 \"가동 상황을 보면서 검토해야 할 것\"이라고 말했다.",
+   "links": [
+    {
+     "s": "한국경제",
+     "u": "https://www.hankyung.com/article/202611259509i"
+    }
+   ]
+  },
+  {
+   "cat": "환율",
+   "time": "11/25 15:36",
+   "title": "원/달러 주간 종가 1,343.2원… 증시 급락에도 0.8원 오르는 데 그쳐",
+   "body": "서울 외환시장에서 원/달러 환율은 오후 3시30분 기준 전 거래일 주간 종가보다 0.8원 오른 1,343.2원에 거래를 마쳤다. 코스피가 6% 넘게 빠지고 외국인이 2조원 가까이 순매도한 날이었지만 환율 변동 폭은 1원 미만에 머물렀다.",
+   "links": [
+    {
+     "s": "아시아경제",
+     "u": "https://view.asiae.co.kr/article/2026112515363125699"
+    },
+    {
+     "s": "파이낸셜뉴스",
+     "u": "https://www.fnnews.com/news/202611251544208293"
+    }
+   ]
+  },
+  {
+   "cat": "통화정책",
+   "time": "11/25 15:22",
+   "title": "한은, 26일 올해 마지막 금통위… 연 3.00%→3.25% 인상 관측 우세",
+   "body": "한국은행 금융통화위원회가 26일 올해 마지막 기준금리 결정 회의를 연다. 뉴스웍스에 따르면 SK증권과 키움증권은 만장일치 0.25%p 인상을 예상했고, 키움증권은 내년 2월 추가 인상으로 최종 금리 3.50%를 제시했다. 인상 근거로는 3분기 GDP 전기 대비 1.0% 성장과 높은 근원물가가, 동결 근거로는 증시 변동성과 가계 이자 부담이 꼽혔다.",
+   "links": [
+    {
+     "s": "뉴스웍스",
+     "u": "https://www.newsworks.co.kr/news/articleView.html?idxno=904373"
+    }
+   ]
+  },
+  {
+   "cat": "금리",
+   "time": "11/25 12:00",
+   "title": "10월 가계대출 금리 5.02%로 5%대 재진입… 주담대 4.98%로 14년여 만 최고",
+   "body": "한국은행에 따르면 10월 예금은행 가계대출 금리(신규 취급액 기준)는 5.02%로 전월보다 0.06%p 올라 2023년 11월 이후 처음 5%를 넘었다. 주택담보대출 금리는 4.98%로 0.10%p 올라 2012년 3월 이후 가장 높았고, 고정형 주담대 금리(5.13%)는 13개월 연속 올랐다. 저축성수신금리가 3.62%로 0.17%p 오르면서 신규 취급액 기준 예대금리차는 1.02%p로 0.10%p 좁혀졌다.",
+   "links": [
+    {
+     "s": "디지털타임스",
+     "u": "https://www.dt.co.kr/article/12097119"
+    },
+    {
+     "s": "글로벌이코노믹",
+     "u": "https://www.g-enews.com/article/Finance/2026/11/202611251211532313bb91c46fcd_1"
+    }
+   ]
+  },
+  {
+   "cat": "기업",
+   "time": "11/25 15:41",
+   "title": "삼성디스플레이, ams오스람 지분 9.1% 인수해 최대주주로… 마이크로 LED 공동개발",
+   "body": "삼성디스플레이가 ams오스람 신주 998만4,439주를 약 2억1,000만유로에 인수해 지분 9.1%를 확보하기로 했다. 지분 취득은 관련 기관 심의·승인을 거쳐 내년 초 마무리할 계획이며, 두 회사는 마이크로 LED 공동개발을 위한 전략적 파트너십도 맺었다. 원화 환산 투자액은 아주경제가 약 3,300억원, 파이낸셜뉴스가 약 3,100억원으로 보도했다.",
+   "links": [
+    {
+     "s": "아주경제",
+     "u": "https://www.ajunews.com/view/20261125153815825"
+    },
+    {
+     "s": "파이낸셜뉴스",
+     "u": "https://www.fnnews.com/news/202611251531057785"
+    },
+    {
+     "s": "아시아경제",
+     "u": "https://view.asiae.co.kr/article/2026112515314190664"
+    }
+   ]
+  },
+  {
+   "cat": "공시",
+   "time": "11/25 14:31",
+   "title": "현대건설, 여의도 한양 재건축 약 8,826억원 수주 공시… 지엔씨에너지·경동이앤에스도 계약",
+   "body": "현대건설은 케이비부동산신탁과 여의도 한양아파트 재건축정비사업 공사 계약(약 8,826억원, 2025년 매출의 2.8%)을 맺었다고 공시했다. 지엔씨에너지는 디엘이엔씨와 김포 데이터센터 가스터빈 비상발전기 등 약 393억6,000만원(매출의 15.0%) 공급 계약을 공시했다. 경동인베스트는 자회사 경동이앤에스가 울산 온산 PM 프로젝트 공사를 362억5,000만원(매출의 52.36%)에 따냈다고 밝혔다.",
+   "links": [
+    {
+     "s": "스페셜타임스",
+     "u": "https://www.specialtimes.co.kr/news/articleView.html?idxno=490111"
+    },
+    {
+     "s": "스페셜타임스",
+     "u": "https://www.specialtimes.co.kr/news/articleView.html?idxno=490065"
+    },
+    {
+     "s": "스페셜타임스",
+     "u": "https://www.specialtimes.co.kr/news/articleView.html?idxno=490083"
+    }
+   ]
+  },
+  {
+   "cat": "리서치",
+   "time": "11/25 08:58",
+   "title": "목표주가 하향 잇따라… 파두 50%↓, 리노공업·PKC도 낮추고 셀트리온은 상향",
+   "body": "한국경제의 증권가 목표가 집계에 따르면 반도체·바이오·제약 등 여러 업종에서 목표주가가 대거 하향됐고, 파두는 목표가가 50% 낮아졌다. 리노공업은 내년 실적 회복 전망에도 적용 PER이, PKC는 내년 영업이익 증가 예상에도 EV/EBITDA 배수가 낮아지며 목표가가 내려갔다. 반면 셀트리온(고마진 신제품 성장 반영)과 에이피알은 목표가가 올랐다.",
+   "links": [
+    {
+     "s": "한국경제",
+     "u": "https://www.hankyung.com/article/202611258398i"
+    }
+   ]
+  },
+  {
+   "cat": "리서치",
+   "time": "11/25 15:54",
+   "title": "신영증권 \"올해 코스피 낙폭 65%가 6~7월에 집중\"… 닷컴 버블과 비슷한 흐름 진단",
+   "body": "파이낸셜뉴스에 따르면 신영증권 김효진 연구원은 올해 코스피 하락폭의 65%가 6~7월에 먼저 나왔다며 닷컴 버블 때와 비슷한 흐름이라고 진단했다. 그는 AI 수익성과 연준 금리 경로가 단기간에 바뀌기 어렵다며 하락 때 평균 단가를 낮추는 매수에 나설 시점은 아니라고 봤다. 뉴스핌에 따르면 iM증권 양현경 연구원은 시장이 대규모 AI 투자가 실제 이익으로 이어질지를 다시 따지고 있다고 짚었다.",
+   "links": [
+    {
+     "s": "파이낸셜뉴스",
+     "u": "https://fnnews.com/news/202611251548238653"
+    },
+    {
+     "s": "뉴스핌",
+     "u": "https://www.newspim.com/news/view/20261125001078"
+    }
+   ]
+  }
+ ],
+ "kr_more": [
+  {
+   "time": "11/25 13:59",
+   "title": "현대모비스, 유럽·북미 수주 잇따라… 올해 해외수주 145억달러 전망",
+   "s": "뉴스핌",
+   "u": "https://www.newspim.com/news/view/20261125000840"
+  },
+  {
+   "time": "11/25 13:59",
+   "title": "네오셈, 삼성전자에 CLT 인터페이스 보드 64.7억원 공급 계약",
+   "s": "스페셜타임스",
+   "u": "https://www.specialtimes.co.kr/news/articleView.html?idxno=490104"
+  },
+  {
+   "time": "11/25 14:57",
+   "title": "로봇·AI 테마 엇갈려… 에스투더블유·삼성SDS 강세, 로보티즈 등은 약세",
+   "s": "핀포인트뉴스",
+   "u": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=507968"
+  },
+  {
+   "time": "11/25",
+   "title": "국고채 금리 대체로 하락… 3년물 장중 연 3.633%",
+   "s": "네이트 뉴스(전재)",
+   "u": "https://news.nate.com/view/20261125n14783"
+  },
+  {
+   "time": "11/25 14:20",
+   "title": "키움증권, 신한지주 목표가 13만원·매수 의견 제시",
+   "s": "뉴스핌",
+   "u": "https://www.newspim.com/news/view/20261125000879"
+  },
+  {
+   "time": "11/25",
+   "title": "하나증권, 진에어 목표가 1만원 제시… 메가 LCC 출범·통합 효과 주목",
+   "s": "네이트 뉴스(전재)",
+   "u": "https://m.news.nate.com/view/20261125n05538"
+  },
+  {
+   "time": "11/25",
+   "title": "IBK투자증권, 현대모비스 목표가 57만원… 휴머노이드 부품 공급망 주목",
+   "s": "네이트 뉴스(전재)",
+   "u": "https://m.news.nate.com/view/20261125n05594"
+  },
+  {
+   "time": "11/25",
+   "title": "교보증권, 한화솔루션 목표가 3만3,000원 제시",
+   "s": "네이트 뉴스(전재)",
+   "u": "https://m.news.nate.com/view/20261125n08483"
+  },
+  {
+   "time": "11/25",
+   "title": "교보증권, SK이터닉스 목표가 4만3,000원 제시",
+   "s": "네이트 뉴스(전재)",
+   "u": "https://m.news.nate.com/view/20261125n08778"
+  },
+  {
+   "time": "11/25",
+   "title": "교보증권, HD현대에너지솔루션 목표가 18만4,000원 제시",
+   "s": "네이트 뉴스(전재)",
+   "u": "https://m.news.nate.com/view/20261125n08484"
+  },
+  {
+   "time": "11/25",
+   "title": "교보증권, OCI홀딩스 목표가 43만원 제시",
+   "s": "네이트 뉴스(전재)",
+   "u": "https://m.news.nate.com/view/20261125n08363"
+  },
+  {
+   "time": "11/25",
+   "title": "DS투자증권, 롯데관광개발 목표가 1만5,000원 제시",
+   "s": "네이트 뉴스(전재)",
+   "u": "https://m.news.nate.com/view/20261125n05911"
+  }
+ ],
+ "cal": [
+  {
+   "when": "11/25",
+   "c": "KR",
+   "what": "케이엠에프 공모주 일반청약 마감(24~25일, 코스닥 상장 예정)",
+   "note": "희망 공모가 15,000~17,800원, 대표주관 IBK투자증권",
+   "links": [
+    {
+     "s": "서울경제",
+     "u": "https://m.sedaily.com/article/20117349"
+    }
+   ]
+  },
+  {
+   "when": "11/25",
+   "c": "US",
+   "what": "실적: 디어",
+   "note": "현지 25일",
+   "links": [
+    {
+     "s": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/article/a-battered-stock-market-looks-for-the-bottom-what-to-watch-this-week-100000117.html"
+    }
+   ]
+  },
+  {
+   "when": "11/25 10:00",
+   "c": "KR",
+   "what": "비상경제장관회의(경제부총리 주재)",
+   "note": "",
+   "links": [
+    {
+     "s": "이투데이",
+     "u": "https://www.etoday.co.kr/news/view/2651252"
+    }
+   ]
+  },
+  {
+   "when": "11/25 22:30",
+   "c": "US",
+   "what": "미국 10월 PCE 물가·개인소비지출, 3분기 GDP 잠정치(2차)",
+   "note": "PCE 예상 3.8%·근원 3.2%(전월 3.6%·3.1%, 전년비). GDP 예상 연율 3.5%(속보치 3.4%)",
+   "links": [
+    {
+     "s": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/article/a-battered-stock-market-looks-for-the-bottom-what-to-watch-this-week-100000117.html"
+    },
+    {
+     "s": "이투데이",
+     "u": "https://www.etoday.co.kr/news/view/2651071"
+    },
+    {
+     "s": "FinancialJuice",
+     "u": "https://features.financialjuice.com/2026/11/20/week-ahead-economic-indicators-23rd-27th-november-us/"
+    }
+   ]
+  },
+  {
+   "when": "11/26",
+   "c": "KR",
+   "what": "3분기 가계동향조사 결과·12월 국고채 발행계획 발표",
+   "note": "",
+   "links": [
+    {
+     "s": "이투데이",
+     "u": "https://www.etoday.co.kr/news/view/2651252"
+    }
+   ]
+  },
+  {
+   "when": "11/26",
+   "c": "KR",
+   "what": "한국은행 금통위 (기준금리 결정·수정 경제전망)",
+   "note": "현행 3.00%→3.25%로 0.25%p 인상 전망 우세",
+   "links": [
+    {
+     "s": "연합인포맥스 (KB Think)",
+     "u": "https://kbthink.com/news-list/view.html?newsId=20261117140648813"
+    },
+    {
+     "s": "이투데이",
+     "u": "https://www.etoday.co.kr/news/view/2651071"
+    }
+   ]
+  },
+  {
+   "when": "11/26",
+   "c": "US",
+   "what": "추수감사절 — 뉴욕증시 휴장",
+   "note": "",
+   "links": [
+    {
+     "s": "웰페어헬로 (휴장일 정리)",
+     "u": "https://www.welfarehello.com/community/policyInfo/2026-%EB%AF%B8%EA%B5%AD%EC%A6%9D%EC%8B%9C-%ED%9C%B4%EC%9E%A5%EC%9D%BC%EA%B0%9C%EC%9E%A5%EC%8B%9C%EA%B0%84-%EC%BA%98%EB%A6%B0%EB%8D%94-%EC%B4%9D%EC%A0%95%EB%A6%AC--e5bcd6ef-86ef-43b9-9ed9-77b4dd4b77fd"
+    }
+   ]
+  },
+  {
+   "when": "11/26",
+   "c": "EU",
+   "what": "유로존 정상들, 브뤼셀서 라가르드 ECB 총재 후임 논의(26~27일)",
+   "note": "후임은 12월 EU 정상회의에서 결정 예정",
+   "links": [
+    {
+     "s": "Caixin Global",
+     "u": "https://www.caixinglobal.com/2026-11-21/the-week-ahead-nov-23-29-ecb-succession-and-opec-oil-talks-102507365.html"
+    }
+   ]
+  },
+  {
+   "when": "11/26 18:00",
+   "c": "EU",
+   "what": "ECB 유로존 통화동향(M3 등)·보험사 분기 통계 공표",
+   "links": [
+    {
+     "s": "ECB",
+     "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html"
+    }
+   ]
+  },
+  {
+   "when": "11/26 21:30",
+   "c": "EU",
+   "what": "ECB 10월 28~29일 통화정책회의 의사록 공개",
+   "note": "",
+   "links": [
+    {
+     "s": "ECB 주간 일정",
+     "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html"
+    }
+   ]
+  },
+  {
+   "when": "11/27",
+   "c": "KR",
+   "what": "에이엔에이치스트럭쳐 공모주 일반청약(27·30일)",
+   "note": "희망 공모가 11,200~13,600원, 대표주관 NH투자증권",
+   "links": [
+    {
+     "s": "서울경제",
+     "u": "https://m.sedaily.com/article/20117349"
+    }
+   ]
+  },
+  {
+   "when": "11/27 18:00",
+   "c": "EU",
+   "what": "ECB 10월 소비자기대조사 결과",
+   "note": "",
+   "links": [
+    {
+     "s": "ECB 주간 일정",
+     "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html"
+    }
+   ]
+  },
+  {
+   "when": "11/27 23:15",
+   "c": "EU",
+   "what": "ECB 부이치치 부총재, 분데스방크 주최 Euro20+ 행사 타운홀(프랑크푸르트)",
+   "links": [
+    {
+     "s": "ECB",
+     "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html"
+    }
+   ]
+  },
+  {
+   "when": "11/28 03:00",
+   "c": "US",
+   "what": "추수감사절 다음 날 뉴욕증시 조기 폐장(현지 27일 13:00)",
+   "note": "",
+   "links": [
+    {
+     "s": "웰페어헬로 (휴장일 정리)",
+     "u": "https://www.welfarehello.com/community/policyInfo/2026-%EB%AF%B8%EA%B5%AD%EC%A6%9D%EC%8B%9C-%ED%9C%B4%EC%9E%A5%EC%9D%BC%EA%B0%9C%EC%9E%A5%EC%8B%9C%EA%B0%84-%EC%BA%98%EB%A6%B0%EB%8D%94-%EC%B4%9D%EC%A0%95%EB%A6%AC--e5bcd6ef-86ef-43b9-9ed9-77b4dd4b77fd"
+    }
+   ]
+  },
+  {
+   "when": "11/29",
+   "c": "글로벌",
+   "what": "OPEC+ 화상 장관회의 — 생산 목표·2027년 쿼터 틀 논의",
+   "note": "11/1 핵심 7개국은 12월 쿼터 동결에 합의",
+   "links": [
+    {
+     "s": "Caixin Global",
+     "u": "https://www.caixinglobal.com/2026-11-21/the-week-ahead-nov-23-29-ecb-succession-and-opec-oil-talks-102507365.html"
+    }
+   ]
+  },
+  {
+   "when": "12/02 00:00",
+   "c": "US",
+   "what": "미국 10월 구인·이직 보고서(JOLTS)",
+   "links": [
+    {
+     "s": "FedRateCalc(BLS 일정)",
+     "u": "https://fedratecalc.com/us-economic-calendar/december-2026/"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "원/달러: 오늘(11/25) 새벽 2시 야간 종가 기사를 쿼리 4가지로 찾지 못해 11/24 15:30 주간 종가 칸을 그대로 뒀다.",
+  "코스피200 야간선물: 새벽 06:00 종가·등락률 기사를 찾지 못해 칸을 넣지 않았다(증권플러스 11/24 19:37 장중 754.75만 개장 전 체크에 적음).",
+  "유로스톡스50: FMP 11/24 값(6,050, -0.71%)과 마감 기사 등락률(ad-hoc-news -1.17%, MarketScreener 시세표 -1.16%)이 0.05%p 넘게 다르다.",
+  "DAX: 아나돌루통신 25,005.51(-1.31%)을 썼다. RTTNews는 -1.26%로 보도했다.",
+  "분량 부족: 미국 헤드라인 6건(목표 10), 개장 전 체크 2건(목표 4). 검색 40회 안에서 날짜가 확인되는 기사를 더 찾지 못했다.",
+  "FMP 실적 캘린더(11/25~27)가 빈 결과를 돌려줘 대형주 실적 일정은 지난 판(디어)을 유지했다.",
+  "목표가 변동: 리서치 리포트 11/23·11/24 발간분 중 직전 목표가가 있는 항목이 2건뿐이다(상향 1·하향 1).",
+  "한국 마감: 국고채 금리 마감 기사를 검색 시점까지 찾지 못해 장중 기사(3년물 장중 3.633%)만 헤드라인에 넣었다.",
+  "한국 마감: 뉴스핌은 코스피 종가 4,697.49·외국인 순매도 2조3,203억원으로 보도했다. 아주경제·MTN·위키트리 등 다수 매체의 4,697.51·1조8,993억원을 따랐다.",
+  "한국 마감: 삼성디스플레이 ams오스람 투자액 원화 환산이 매체마다 다르다(아주경제 약 3,300억원, 파이낸셜뉴스 약 3,100억원)."
+ ]
+}

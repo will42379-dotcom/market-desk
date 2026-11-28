@@ -1,0 +1,1284 @@
+{
+ "date": "2026-11-26",
+ "label": "11월 26일 (목)",
+ "generated": "2026-11-27 05:13",
+ "gen_g": "2026-11-26 06:47",
+ "gen_kr": "2026-11-26 16:45",
+ "gen_intra": "2026-11-27 05:13",
+ "lead": "뉴욕증시는 장중 급락을 대부분 되돌려 다우가 0.33% 올랐지만 나스닥은 0.62% 내렸고, 유럽은 반도체주 급락에 STOXX 600이 1.06%, 유로스톡스50이 1.82% 하락했다.",
+ "kr_lead": "한은이 기준금리를 3.25%로 올린 날 코스피는 장중 4,817까지 올랐다가 0.29% 오른 4,711.21로, 코스닥은 0.78% 오른 655.71로 마감했다.",
+ "us_session": "11/25(수) 마감",
+ "eu_session": "11/25(수) 마감",
+ "kr_session": "11/26(목) 마감",
+ "market": [
+  {
+   "name": "S&P 500",
+   "v": 7185.96,
+   "d": 2,
+   "chg": -0.21,
+   "cu": "%",
+   "t": "11/25 마감",
+   "src": "FMP"
+  },
+  {
+   "name": "나스닥",
+   "v": 23585.8,
+   "d": 2,
+   "chg": -0.62,
+   "cu": "%",
+   "t": "11/25 마감",
+   "src": "FMP"
+  },
+  {
+   "name": "다우",
+   "v": 50182.95,
+   "d": 2,
+   "chg": 0.33,
+   "cu": "%",
+   "t": "11/25 마감",
+   "src": "FMP"
+  },
+  {
+   "name": "STOXX 600",
+   "v": 636.98,
+   "d": 2,
+   "chg": 1.8,
+   "cu": "%",
+   "t": "11/26 마감",
+   "src": "Reuters"
+  },
+  {
+   "name": "유로스톡스50",
+   "v": 6014.74,
+   "d": 2,
+   "chg": 2.04,
+   "cu": "%",
+   "t": "11/26 마감",
+   "src": "FMP"
+  },
+  {
+   "name": "독일 DAX",
+   "v": 24702.13,
+   "d": 2,
+   "chg": -1.26,
+   "cu": "%",
+   "t": "11/25 마감",
+   "src": "Chip Dispatch"
+  },
+  {
+   "name": "영국 FTSE 100",
+   "v": 10613.04,
+   "d": 2,
+   "chg": 1.78,
+   "cu": "%",
+   "t": "11/27 01:29",
+   "src": "FMP"
+  },
+  {
+   "name": "코스피",
+   "v": 4711.21,
+   "d": 2,
+   "chg": 0.29,
+   "cu": "%",
+   "t": "11/26 마감",
+   "src": "서울신문"
+  },
+  {
+   "name": "코스닥",
+   "v": 655.71,
+   "d": 2,
+   "chg": 0.78,
+   "cu": "%",
+   "t": "11/26 마감",
+   "src": "서울신문"
+  },
+  {
+   "name": "VIX",
+   "v": 26.8,
+   "d": 2,
+   "chg": -5.27,
+   "cu": "%",
+   "t": "11/27 01:30",
+   "src": "FMP"
+  },
+  {
+   "name": "미 국채 2년",
+   "v": 4.61,
+   "d": 2,
+   "unit": "%",
+   "chg": -2,
+   "cu": "bp",
+   "t": "11/25",
+   "src": "FMP(재무부)"
+  },
+  {
+   "name": "미 국채 10년",
+   "v": 4.85,
+   "d": 2,
+   "unit": "%",
+   "chg": -6,
+   "cu": "bp",
+   "t": "11/25",
+   "src": "FMP(재무부)"
+  },
+  {
+   "name": "미 국채 30년",
+   "v": 5.24,
+   "d": 2,
+   "unit": "%",
+   "chg": -6,
+   "cu": "bp",
+   "t": "11/25",
+   "src": "FMP(재무부)"
+  },
+  {
+   "name": "원/달러",
+   "v": 1342.7,
+   "d": 1,
+   "unit": "원",
+   "chg": -0.5,
+   "cu": "원",
+   "t": "11/26 15:30",
+   "src": "아시아경제"
+  },
+  {
+   "name": "금 ($/oz)",
+   "v": 3593.4,
+   "d": 1,
+   "chg": 1.63,
+   "cu": "%",
+   "t": "11/27 04:30",
+   "src": "FMP"
+  },
+  {
+   "name": "브렌트유 ($/bbl)",
+   "v": 91.73,
+   "d": 2,
+   "chg": -3.04,
+   "cu": "%",
+   "t": "11/27 04:29",
+   "src": "FMP"
+  }
+ ],
+ "stocks": [
+  {
+   "sym": "NVDA",
+   "name": "엔비디아",
+   "v": 149.3,
+   "chg": -3.91,
+   "note": "장중 한때 8% 하락"
+  },
+  {
+   "sym": "MSFT",
+   "name": "마이크로소프트",
+   "v": 489.93,
+   "chg": -1.25,
+   "note": ""
+  },
+  {
+   "sym": "AAPL",
+   "name": "애플",
+   "v": 355.58,
+   "chg": 0.43,
+   "note": ""
+  },
+  {
+   "sym": "GOOGL",
+   "name": "알파벳",
+   "v": 273.1,
+   "chg": -2.13,
+   "note": ""
+  },
+  {
+   "sym": "AMZN",
+   "name": "아마존",
+   "v": 244.43,
+   "chg": -3.12,
+   "note": ""
+  },
+  {
+   "sym": "META",
+   "name": "메타",
+   "v": 609.89,
+   "chg": 3.4,
+   "note": ""
+  },
+  {
+   "sym": "TSLA",
+   "name": "테슬라",
+   "v": 380.14,
+   "chg": -1.18,
+   "note": ""
+  },
+  {
+   "sym": "AMD",
+   "name": "AMD",
+   "v": 406.03,
+   "chg": -1.75,
+   "note": "장중 9.1% 하락 뒤 낙폭 축소"
+  }
+ ],
+ "us": [
+  {
+   "cat": "증시",
+   "time": "11/26 06:12",
+   "title": "뉴욕증시 혼조 마감… 다우 0.33%↑, 나스닥은 장중 4.6% 급락 뒤 0.62%↓로 만회",
+   "body": "25일 다우지수는 164.25포인트(0.33%) 오른 50,182.90, 나스닥은 147.74포인트(0.62%) 내린 23,585.80에 마감했고 S&P 500도 소폭 내렸다. 장중 한때 다우는 1,100포인트 넘게, 나스닥과 S&P 500은 각각 4.6%, 3.2%까지 밀렸지만 추수감사절 연휴를 앞두고 저가 매수가 들어왔다. IBM·세일즈포스·셔윈윌리엄스가 다우 반등을 이끌었다.",
+   "links": [
+    {
+     "s": "아시아경제",
+     "u": "https://view.asiae.co.kr/article/2026112605595166098"
+    },
+    {
+     "s": "블록미디어",
+     "u": "https://www.blockmedia.co.kr/archives/1170757"
+    }
+   ]
+  },
+  {
+   "cat": "지표",
+   "time": "11/26 06:11",
+   "title": "美 10월 PCE 전년비 3.8%로 2023년 이후 최고… 근원 3.3%, 3분기 GDP는 4.3%로 상향",
+   "body": "10월 PCE 물가는 전월보다 0.3%, 1년 전보다 3.8% 올랐고 근원 PCE는 3.3%로 예상치(3.2%)를 웃돌았다. 3분기 GDP 성장률(연율)은 속보치 3.4%에서 4.3%로 올라 시장 예상 3.5%를 크게 넘었다. 같은 날 나온 주간 신규 실업수당 청구는 18만9천건으로 예상(20만건)보다 적었다.",
+   "links": [
+    {
+     "s": "블록미디어",
+     "u": "https://www.blockmedia.co.kr/archives/1170757"
+    },
+    {
+     "s": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+    },
+    {
+     "s": "Newsquawk(StockNow)",
+     "u": "https://stocknow.ai/en/breaking-news/mp3tlwk46m59kclosmeo5dyh/newsquawk-european-market-wrap-25th-november-2026"
+    }
+   ]
+  },
+  {
+   "cat": "연준",
+   "time": "11/26 04:35",
+   "title": "시장, 12월 연준 금리 인상 사실상 확실시… 美 10년물 금리는 4.8%대로 하락",
+   "body": "야후파이낸스는 CME 그룹 집계로 12월 회의의 0.25%p 인상 확률이 약 98%라고 전했고, 폭스비즈니스는 1월 추가 인상 확률도 63%로 집계했다. 로이터에 따르면 미 10년물 금리는 8.5bp 내린 4.8165%, 2년물은 7.7bp 내린 4.5940%였다. 재무부 고시 기준 10년물은 4.85%로 전날보다 6bp 낮았다.",
+   "links": [
+    {
+     "s": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+    },
+    {
+     "s": "로이터(Boursorama)",
+     "u": "https://www.boursorama.com/bourse/actualites/l-europe-finit-dans-le-rouge-entrainee-par-les-pertes-de-wall-street-80b70fb4043b73b810fe9bef1e06c250"
+    },
+    {
+     "s": "Fox Business",
+     "u": "https://www.foxbusiness.com/markets/stocks-11-25-2026"
+    }
+   ]
+  },
+  {
+   "cat": "증시",
+   "time": "11/26 00:50",
+   "title": "나스닥100, 장중 최고치 대비 20% 아래로… 약세장 문턱 찍고 되돌아와",
+   "body": "나스닥100은 장중 4.7% 내린 24,970.66까지 떨어져 10월 6일 최고 종가(31,224.47)보다 20% 낮은 24,979.58을 잠시 밑돌았다. S&P 500도 장중 3.2% 내린 6,970.11로 7,000선을 일시 내줬다. 장중 마이크론은 10.6%, 코어위브 9.9%, AMD 9.1%, 엔비디아 7.9% 밀렸다.",
+   "links": [
+    {
+     "s": "MarketSpeaker",
+     "u": "https://marketspeaker.com/nasdaq100-bear-market-threshold-ai-stocks-tariffs-pce-november-25-2026/"
+    }
+   ]
+  },
+  {
+   "cat": "기업",
+   "time": "11/26 06:15",
+   "title": "엔비디아 4% 가까이·오라클 5%↓… 앤트로픽은 공모가 83달러를 소폭 밑돌아",
+   "body": "ABC뉴스에 따르면 엔비디아는 4% 가까이, 마이크론은 4%, 샌디스크와 오라클은 5% 내렸다. 앤트로픽은 1% 올라 약 82.79달러로 마감했지만 공모가 83달러를 조금 밑돌았다. 블록미디어는 앰바렐라가 부진한 실적·가이던스에 19% 넘게 급락했다고 전했다.",
+   "links": [
+    {
+     "s": "ABC News",
+     "u": "https://abcnews.com/Business/stocks-tumble-tech-sell-off-resumes-nvidia-falls/story?id=138442070"
+    },
+    {
+     "s": "블록미디어",
+     "u": "https://www.blockmedia.co.kr/archives/1170757"
+    }
+   ]
+  },
+  {
+   "cat": "무역",
+   "time": "11/26 00:00",
+   "title": "美, 14개 교역국에 과잉생산 관세 제안… 中 20%(협상 결렬 시 40%), EU는 15% 상한",
+   "body": "미국이 중국·EU 등 14개 교역 상대에 과잉생산 관세를 제안했다. Newsquawk에 따르면 중국은 20%로 1월 시한까지 협상이 실패하면 40%로 오르고, EU는 최고 20%지만 합의 세율은 15%가 상한이며 무역대표부(USTR) 공청회는 2027년 1월 25일 열린다. 야후파이낸스는 의견 수렴 기간을 거쳐 빨라야 1월에 시행될 것이라고 전했다.",
+   "links": [
+    {
+     "s": "Newsquawk(StockNow)",
+     "u": "https://stocknow.ai/en/breaking-news/mp3tlwk46m59kclosmeo5dyh/newsquawk-european-market-wrap-25th-november-2026"
+    },
+    {
+     "s": "Yahoo Finance",
+     "u": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+    }
+   ]
+  },
+  {
+   "cat": "원자재",
+   "time": "11/26 00:30",
+   "title": "브렌트유 2%대↑… 후티 \"사우디 라스타누라 정유소 타격\" 주장, 금은 장중 3,465달러까지",
+   "body": "후티 반군이 사우디 최대 정유소 라스타누라를 공격했다고 주장했고 사우디 주도 연합군은 드론 4대를 격추했다고 밝혔다. 동부시간 오전 10시16분 브렌트유는 2.41% 오른 배럴당 93.60달러, WTI는 1.78% 오른 83.51달러였으며, 라스타누라는 하루 55만배럴로 사우디 정제능력의 약 16%를 맡는다. 금 현물은 달러 강세와 연준 인상 베팅에 장중 온스당 3,465.28달러까지 밀렸다(Newsquawk).",
+   "links": [
+    {
+     "s": "OilPrice.com(로이터)",
+     "u": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Over-2-as-Saudi-Arabia-Downs-Drones-Over-Ras-Tanura.html"
+    },
+    {
+     "s": "Newsquawk(StockNow)",
+     "u": "https://stocknow.ai/en/breaking-news/mp3tlwk46m59kclosmeo5dyh/newsquawk-european-market-wrap-25th-november-2026"
+    }
+   ]
+  }
+ ],
+ "us_more": [
+  {
+   "time": "11/26",
+   "title": "AI 수익성 우려가 젠슨 황 복귀 효과 눌러… 기술주 하루 종일 롤러코스터",
+   "s": "CNN",
+   "u": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"
+  },
+  {
+   "time": "11/26",
+   "title": "마이클 버리, 남은 나스닥100 풋옵션 모두 처분… \"매수 포지션이 더 많아졌다\"",
+   "s": "Bloomingbit",
+   "u": "https://en.bloomingbit.io/feed/news/125251"
+  },
+  {
+   "time": "11/26 01:36",
+   "title": "장중 HP 10%↑, 워크데이 9.3%·델 5.4%↓… AI주 매도 속 종목별 엇갈려",
+   "s": "Fox Business",
+   "u": "https://www.foxbusiness.com/markets/stocks-11-25-2026"
+  },
+  {
+   "time": "11/25",
+   "title": "개장 전 나스닥 선물 2%대 급락… AI주 투매·추가 관세 우려에 PCE 대기",
+   "s": "뉴스핌",
+   "u": "https://www.newspim.com/news/view/20261125001309"
+  },
+  {
+   "time": "11/25",
+   "title": "코어위브 CDS 사상 최고… 개장 전 AI주 일제히 흔들려",
+   "s": "뉴스핌",
+   "u": "https://www.newspim.com/news/view/20261125001311"
+  }
+ ],
+ "eu": [
+  {
+   "cat": "증시",
+   "time": "11/26",
+   "title": "유럽증시 하락 마감… 유로스톡스50 1.82%↓ 5월 이후 최저, DAX 1.26%↓",
+   "body": "25일 DAX는 315.68포인트(1.26%) 내린 24,702.13, CAC 40은 0.75% 내린 7,980.57, FTSE 100은 0.38% 내린 10,426.94에 마쳤다. 유로스톡스50은 1.82% 내린 5,894.46으로 5월 이후 최저 종가였고, STOXX 600은 1.06% 내린 626.03이었다. 장 초반 오름세를 지키지 못했고, EU가 12월 1일부터 하이브리드차 수입에 잠정 쿼터를 적용한다는 소식에 폭스바겐 우선주(4.6%)·BMW(3.7%) 등 자동차주는 올랐다.",
+   "links": [
+    {
+     "s": "RTTNews(Panthere Group)",
+     "u": "https://www.pantheregroup.com/2026/11/25/europe-shares-finish-under-water-on-wednesday/"
+    },
+    {
+     "s": "dpa-AFX(onvista)",
+     "u": "https://onvista.de/news/2026/11-25-roundup-aktien-europa-schluss-eurostoxx-auf-tief-seit-mai-ki-aktien-belasten-0-10-26580586"
+    },
+    {
+     "s": "Chip Dispatch",
+     "u": "https://chipdispatch.com/articles/european-chip-stocks-slump-as-nasdaq-s-4-ai-rout-crosses-the-atlantic"
+    }
+   ]
+  },
+  {
+   "cat": "업종",
+   "time": "11/26 04:16",
+   "title": "유럽 반도체주 급락… ASM인터내셔널 7.8%·인피니언 6.5%·ASML 5.8%↓, 은행주도 3~4% 약세",
+   "body": "나스닥 반도체주 급락이 번지며 ASM인터내셔널(7.8%), 인피니언(6.5%), ASML(5.8%, 1,131.60유로), BE세미컨덕터(5.6%), 아익스트론(4.9%), ST마이크로(4.7%)가 크게 내렸다. 은행주도 산탄데르 4.0%, 유니크레디트·인테사산파올로 3.3%, BBVA 3.0% 하락했다. dpa-AFX는 ECB의 최소 지급준비율 인상 가능성이 은행주에 부담이 됐고, 언론 보도로는 ECB 이사회가 결정을 일단 미뤘다고 전했다.",
+   "links": [
+    {
+     "s": "Chip Dispatch",
+     "u": "https://chipdispatch.com/articles/european-chip-stocks-slump-as-nasdaq-s-4-ai-rout-crosses-the-atlantic"
+    },
+    {
+     "s": "dpa-AFX(onvista)",
+     "u": "https://onvista.de/news/2026/11-25-roundup-aktien-europa-schluss-eurostoxx-auf-tief-seit-mai-ki-aktien-belasten-0-10-26580586"
+    }
+   ]
+  },
+  {
+   "cat": "기업",
+   "time": "11/26 01:43",
+   "title": "사노피 4.9%·ams오스람 6.8%↑… 레미 쿠앵트로는 연간 목표 상향에 13% 넘게 급등",
+   "body": "사노피는 인스메드 인수 기대에 4.9% 올랐고 RBC는 목표가를 80유로에서 105유로로 올렸다. ams오스람은 삼성디스플레이와 마이크로LED 디스플레이 협력을 발표해 6.8% 올랐다(로이터 집계 6.7%). 레미 쿠앵트로는 연간 목표 상향으로 13% 넘게, 뷰로베리타스는 어드벤트와의 협상설을 회사가 부인했는데도 6.6% 올랐다.",
+   "links": [
+    {
+     "s": "dpa-AFX(onvista)",
+     "u": "https://onvista.de/news/2026/11-25-roundup-aktien-europa-schluss-eurostoxx-auf-tief-seit-mai-ki-aktien-belasten-0-10-26580586"
+    },
+    {
+     "s": "로이터(Boursorama)",
+     "u": "https://www.boursorama.com/bourse/actualites/l-europe-finit-dans-le-rouge-entrainee-par-les-pertes-de-wall-street-80b70fb4043b73b810fe9bef1e06c250"
+    }
+   ]
+  },
+  {
+   "cat": "중앙은행",
+   "time": "11/26 02:05",
+   "title": "독일 3분기 GDP 0.1%로 하향… 독일 10년물 금리 4.7bp 내린 3.22%",
+   "body": "독일 3분기 GDP 성장률은 전분기 대비 0.1%로 잠정치보다 낮게 수정됐고, 독일 10년물 국채금리는 4.7bp 내린 3.2189%였다. 베일리 영란은행 총재는 지금 에너지 가격이 유지되면 물가 정점이 더 낮을 것이라고 했고, ECB의 코허 위원은 2차 효과가 2027년 상반기에 나타날 것으로 봤다. 영국 에너지 규제기관 오프젬은 내년 1분기 가계 에너지 요금 상한을 연 2,166파운드로 1년 전보다 26% 올렸다.",
+   "links": [
+    {
+     "s": "로이터(Boursorama)",
+     "u": "https://www.boursorama.com/bourse/actualites/l-europe-finit-dans-le-rouge-entrainee-par-les-pertes-de-wall-street-80b70fb4043b73b810fe9bef1e06c250"
+    },
+    {
+     "s": "Newsquawk(StockNow)",
+     "u": "https://stocknow.ai/en/breaking-news/mp3tlwk46m59kclosmeo5dyh/newsquawk-european-market-wrap-25th-november-2026"
+    }
+   ]
+  }
+ ],
+ "eu_more": [
+  {
+   "time": "11/25",
+   "title": "유럽증시 상승 출발… 소비재 강세가 기술주 매도·유가 하락 상쇄",
+   "s": "Journal Arta",
+   "u": "https://journalarta.com/en/2026/11/25/european-stocks-open-higher-as-consumer-shares-offset-tech-selloff-and-oil-slide/"
+  },
+  {
+   "time": "11/25",
+   "title": "그리스 FTSE Athex 20 2.65% 급락… 유럽 주요국 지수 약세",
+   "s": "wallstreet-online",
+   "u": "https://wallstreet-online.de/nachricht/21747136-boersen-update-boersen-update-europa-25-11-ftse-athex-20-schwach-2-65"
+  },
+  {
+   "time": "11/25",
+   "title": "Newsquawk, 25일 유럽 개장 전 주식 뉴스 정리",
+   "s": "Newsquawk",
+   "u": "https://www.newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---25th-november-2026"
+  },
+  {
+   "time": "11/25",
+   "title": "해외 시장 밤사이 주요 움직임 11가지 정리",
+   "s": "STL.News",
+   "u": "https://www.stl.news/overseas-overnight-trading-november-25-2026/"
+  }
+ ],
+ "kr_am": [],
+ "intra": [
+  {
+   "time": "11/27 02:43",
+   "reg": "EU",
+   "cat": "증시",
+   "title": "유럽증시 반등 마감… STOXX 600 1.8%↑ 636.98, 광산·자동차·방산주 3%대↑",
+   "s": "Reuters (Devdiscourse 전재)",
+   "u": "https://www.devdiscourse.com/article/international/4012822-european-stocks-end-higher-on-easing-tariff-fears-ecb-leadership-continuity"
+  },
+  {
+   "time": "11/27 02:05",
+   "reg": "EU",
+   "cat": "증시",
+   "title": "독일 DAX 2.14%↑ 마감… 포르쉐SE 4.70%·폭스바겐 4.60%·BMW 4.49%↑",
+   "s": "Investing.com",
+   "u": "https://investing.com/news/stock-market-news/germany-stocks-higher-at-close-of-trade-dax-up-214-5052639"
+  },
+  {
+   "time": "11/27 02:01",
+   "reg": "EU",
+   "cat": "특징주",
+   "title": "SAP, 최소 1만명 감원 계획 발표 뒤 2.3%↑… 산탄데르 4%·BNP파리바 3%↑",
+   "s": "InstaForex",
+   "u": "https://www.instaforex.com/forex-news/3305885"
+  },
+  {
+   "time": "11/27 00:45",
+   "reg": "EU",
+   "cat": "ECB",
+   "title": "스페인 에르난데스 데코스, 라가르드 이어 ECB 총재 오를 듯",
+   "s": "ANI",
+   "u": "https://www.aninews.in/news/business/spains-pablo-hernandez-de-cos-set-to-succeed-christine-lagarde-as-ecb-president-report20261126211547/"
+  },
+  {
+   "time": "11/27 00:20",
+   "reg": "EU",
+   "cat": "중앙은행",
+   "title": "영란은행, 대형은행 자본요건 60bp 낮추고 CCyB 2% 유지… ECB 의사록 \"금리는 중립 추정 범위 안\"",
+   "s": "Newsquawk",
+   "u": "https://www.newsquawk.com/headlines/newsquawk-european-market-wrap---26th-november-2026"
+  },
+  {
+   "time": "11/27 00:00",
+   "reg": "EU",
+   "cat": "M&A",
+   "title": "임페리얼 브랜즈 16% 급등… JT 인수 검토 보도 뒤 알트리아도 제안 검토 확인",
+   "s": "Newsquawk (StockNow 전재)",
+   "u": "https://stocknow.ai/en/breaking-news/swfpykmc7zbb1p8vfkugdpzj/newsquawk-european-market-wrap-26th-november-2026"
+  },
+  {
+   "time": "11/26 21:51",
+   "reg": "EU",
+   "cat": "증시",
+   "title": "유럽 오전장 DAX 1.8%·CAC 40 1.6%↑… 美 추수감사절 휴장, 27일은 단축장",
+   "s": "investingLive",
+   "u": "https://investinglive.com/news/investinglive-european-session-wrap-european-stocks-ride-wall-street-s-comeback-into-thanksgiving/"
+  },
+  {
+   "time": "11/26 19:00",
+   "reg": "KR",
+   "cat": "공시",
+   "title": "성도이엔지, 단일판매·공급계약 해지 공시… 10월 30일·11월 7일 계약 공시 뒤 정정 세 차례",
+   "s": "데일리연합",
+   "u": "https://www.dailyan.com/news/article.html?no=785659"
+  },
+  {
+   "time": "11/26 18:26",
+   "reg": "KR",
+   "cat": "공시",
+   "title": "코넥스 솔루믹스, 감사의견 거절로 30일부터 정리매매… 12월 9일 상장폐지",
+   "s": "치킨스탁 (전재)",
+   "u": "https://www.chickstockfi.com/news/wire/filing-kr-20261126600907"
+  },
+  {
+   "time": "11/26 18:19",
+   "reg": "KR",
+   "cat": "공시",
+   "title": "오늘이엔엠, 9·10월 발행 신주 32만6,796주 상장금지 신청 피소… 서울중앙지법",
+   "s": "스페셜타임스",
+   "u": "https://specialtimes.co.kr/news/articleView.html?idxno=490812"
+  },
+  {
+   "time": "11/26 17:50",
+   "reg": "KR",
+   "cat": "공시",
+   "title": "넥사다이내믹스, 단일판매·공급계약 체결 공시로 17시47분부터 장 종료까지 매매거래 정지",
+   "s": "치킨스탁 (전재)",
+   "u": "https://www.chickstockfi.com/news/wire/filing-kr-20261126900759"
+  },
+  {
+   "time": "11/26 17:33",
+   "reg": "EU",
+   "cat": "증시",
+   "title": "유럽증시 반등 출발… STOXX 600 1.4%↑ 634.94, 은행·기술주 주도에 관세 우려 완화",
+   "s": "Reuters (WHBL 전재)",
+   "u": "https://whbl.com/2026/11/26/european-stocks-rally-as-tech-and-banks-rebound-tariff-fears-ease/"
+  },
+  {
+   "time": "11/26 17:24",
+   "reg": "KR",
+   "cat": "공시",
+   "title": "라메디텍, 약 15억원 일반공모 유증 결정… 100만2,004주, 예정 발행가 1,497원",
+   "s": "치킨스탁 (전재)",
+   "u": "https://www.chickstockfi.com/news/wire/filing-kr-20261126000839"
+  },
+  {
+   "time": "11/26 17:00",
+   "reg": "KR",
+   "cat": "공시",
+   "title": "드림인사이트, 약 30억원 제3자배정 유증… 239만8,080주 주당 1,251원, 루미나투자조합 등 배정",
+   "s": "치킨스탁 (전재)",
+   "u": "https://www.chickstockfi.com/news/wire/filing-kr-20261126000784"
+  },
+  {
+   "time": "11/26 16:40",
+   "reg": "KR",
+   "cat": "기업",
+   "title": "에이피알, 브랜드501 신주 5만주 700억원(주당 140만원)에 인수… 구주 28만6,994주도 취득 예정",
+   "s": "치킨스탁 (전재)",
+   "u": "https://www.chickstockfi.com/news/wire/filing-kr-20261126800541"
+  },
+  {
+   "time": "11/26 16:38",
+   "reg": "글로벌",
+   "cat": "원자재",
+   "title": "브렌트유 0.74%↑ 95.31달러… 후티, 사우디 라스타누라 정유시설 공격 주장",
+   "s": "The National",
+   "u": "https://www.thenationalnews.com/business/energy/2026/11/26/oil-rebounds-to-95-per-barrel-after-saudi-refinery-attack/"
+  },
+  {
+   "time": "11/26 16:10",
+   "reg": "KR",
+   "cat": "공시",
+   "title": "캐스텍코리아, 약 30억원 일반공모 유증 결정… 251만6,778주, 확정 발행가 1,192원",
+   "s": "치킨스탁 (전재)",
+   "u": "https://www.chickstockfi.com/news/wire/filing-kr-20261126000566"
+  },
+  {
+   "time": "11/26 14:13",
+   "reg": "KR",
+   "cat": "특징주",
+   "title": "대주전자재료 오후 2시 13.87%↑ 8만9,500원… 3분기 매출 약 1,100억원(73%↑)",
+   "s": "잡포스트",
+   "u": "https://www.job-post.co.kr/news/articleView.html?idxno=241223"
+  },
+  {
+   "time": "11/26 13:33",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "오후 1시25분 코스피 1.52%↑ 4,769.01… 외국인 11억 매도 전환, 기관 5,380억 순매수",
+   "s": "파이낸셜뉴스",
+   "u": "https://www.fnnews.com/news/202611261331395454"
+  },
+  {
+   "time": "11/26 11:36",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "11월 18거래일 코스피 일평균 등락폭 3.21%… 5% 넘게 움직인 날만 5일",
+   "s": "그린포스트코리아",
+   "u": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=308174"
+  },
+  {
+   "time": "11/26 11:33",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "코스피 장중 4,817까지 올랐다 0.72%↑ 4,731로 폭 줄여… 개인 5,628억원 순매도",
+   "s": "산경투데이",
+   "u": "https://www.sankyungtoday.com/news/articleView.html?idxno=64448"
+  },
+  {
+   "time": "11/26 11:07",
+   "reg": "KR",
+   "cat": "정책",
+   "title": "한은 점도표 3.75%에 7개·3.50%에 8개… 올해 물가 전망 2.7%, 한미 금리차 0.75%p로",
+   "s": "세계일보",
+   "u": "https://segye.com/newsView/20261126507219"
+  },
+  {
+   "time": "11/26 11:05",
+   "reg": "KR",
+   "cat": "수급",
+   "title": "코스피 한때 2.56%↑ 뒤 폭 줄여 10시59분 4,748.89(1.09%↑)… 외국인 2,530억·기관 3,368억 순매수",
+   "s": "한국경제",
+   "u": "https://www.hankyung.com/article/2026112618086"
+  },
+  {
+   "time": "11/26 11:02",
+   "reg": "KR",
+   "cat": "정책",
+   "title": "한은 결정문서 '추가 인상 속도' 문구 빠져… 동결 소수의견 2명(황건일·이수형), 점도표 중간값 3.50%",
+   "s": "뉴스1",
+   "u": "https://www.news1.kr/economy/trend/6366790"
+  },
+  {
+   "time": "11/26 10:15",
+   "reg": "KR",
+   "cat": "수급",
+   "title": "9시50분 코스피 외국인 2,344억·기관 1,580억원 순매수… 코스닥 3.23%↑ 671.68",
+   "s": "경제타임스",
+   "u": "https://www.ket.kr/news/article.html?no=42367"
+  },
+  {
+   "time": "11/26 09:52",
+   "reg": "KR",
+   "cat": "지표",
+   "title": "한은 수정전망: 올해 성장률 3.3→3.9%, 내년 2.9→4.1% 상향… 내년 물가 2.4%",
+   "s": "서울경제",
+   "u": "https://www.sedaily.com/article/20119163"
+  },
+  {
+   "time": "11/26 09:50",
+   "reg": "KR",
+   "cat": "정책",
+   "title": "한은, 기준금리 0.25%p 올려 연 3.25%… 7·8월 이어 올해 세 번째 인상",
+   "s": "파이낸셜뉴스",
+   "u": "https://www.fnnews.com/news/202611260931178752"
+  },
+  {
+   "time": "11/26 09:39",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "9시32분 코스피 2.14%↑ 4,797.95… 대형주 2.41%↑, 중·소형주는 0.3%대 상승",
+   "s": "파이낸셜뉴스",
+   "u": "https://www.fnnews.com/news/202611260934476493"
+  },
+  {
+   "time": "11/26 09:35",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "코스피 1.01%↑ 4,745.10·코스닥 1.20%↑ 658.46으로 출발… 전날 급락 딛고 반등",
+   "s": "세계일보",
+   "u": "https://www.segye.com/newsView/20261126504072"
+  },
+  {
+   "time": "11/26 09:33",
+   "reg": "KR",
+   "cat": "수급",
+   "title": "9시25분 외국인 코스피 1,574억원 순매수… 코스닥선 외국인 444억·기관 479억원 사들여",
+   "s": "아시아경제",
+   "u": "https://view.asiae.co.kr/article/2026112609333242498"
+  },
+  {
+   "time": "11/26 09:30",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "코스피 9시27분 2.38%↑ 4,809.12로 4800선 회복… 외국인 1,726억·기관 441억 순매수",
+   "s": "뉴스핌",
+   "u": "https://www.newspim.com/news/view/20261126000217"
+  },
+  {
+   "time": "11/26 09:27",
+   "reg": "KR",
+   "cat": "특징주",
+   "title": "SK하이닉스 108만원 돌파·삼성전자 2%대↑… 1.7조 자사주 소각 공시 삼성전기 5.96%↑",
+   "s": "서울신문",
+   "u": "https://www.seoul.co.kr/news/economy/securities/2026/11/26/20261126500019"
+  },
+  {
+   "time": "11/26 09:17",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "9시10분 코스피 0.64%↑ 4,727.44… 이때 외국인은 1,571억원 매도 우위",
+   "s": "한국경제",
+   "u": "https://www.hankyung.com/article/2026112612786"
+  },
+  {
+   "time": "11/26 08:30",
+   "reg": "KR",
+   "cat": "증시",
+   "title": "코스피200 야간선물, 장중 4.96% 급락했다가 0.36% 상승으로 마감",
+   "s": "파이낸셜뉴스",
+   "u": "https://www.fnnews.com/news/202611260808230827"
+  },
+  {
+   "time": "11/26 08:29",
+   "reg": "KR",
+   "cat": "일정",
+   "title": "오늘 자본시장 개혁 TF서 증안펀드 구체안 나올지 주목… 교보는 금통위 소수의견에 관심",
+   "s": "오피니언뉴스",
+   "u": "https://www.opinionnews.co.kr/news/articleView.html?idxno=147507"
+  },
+  {
+   "time": "11/26 08:02",
+   "reg": "KR",
+   "cat": "리포트",
+   "title": "키움증권 \"코스피 반등 시도 예상\"… 증안펀드 증액·공매도 금지 여부를 변수로 꼽아",
+   "s": "이투데이",
+   "u": "https://www.etoday.co.kr/news/view/2653081"
+  },
+  {
+   "time": "11/26 07:13",
+   "reg": "US",
+   "cat": "정책",
+   "title": "美 상무부, 中 고객 해외 데이터센터 엔비디아칩 90일 내 허가 의무화… S&P는 엔비디아 AA 하향 검토",
+   "s": "Newsquawk (StockNow 전재)",
+   "u": "https://stocknow.ai/en/breaking-news/p7giwgu112r95uqzzojx617k/newsquawk-daily-asia-pac-opening-news-26th-november-2026"
+  },
+  {
+   "time": "11/26 06:21",
+   "reg": "US",
+   "cat": "특징주",
+   "title": "美 마감 특징주… 굿알엑스 20.7%·뉴타닉스 15.2%·어반아웃피터스 10.3%↓, HP 11.5%↑",
+   "s": "Stock Titan",
+   "u": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026"
+  },
+  {
+   "time": "11/26 04:16",
+   "reg": "EU",
+   "cat": "증시",
+   "title": "유럽증시 하락 마감… STOXX 600 1.06%↓ 626.03, ASML 5.8%·인피니언 6.5%↓",
+   "s": "Chip Dispatch",
+   "u": "https://chipdispatch.com/articles/european-chip-stocks-slump-as-nasdaq-s-4-ai-rout-crosses-the-atlantic"
+  },
+  {
+   "time": "11/26 03:48",
+   "reg": "US",
+   "cat": "증시",
+   "title": "美 오후 다우 0.04%↑ 전환·S&P 500 1.02%·나스닥 1.83%↓… 장 초반 낙폭 크게 만회",
+   "s": "ABC News",
+   "u": "https://abcnews.com/Business/stocks-tumble-tech-sell-off-resumes-nvidia-falls/story?id=138442070"
+  },
+  {
+   "time": "11/26 02:40",
+   "reg": "EU",
+   "cat": "ECB",
+   "title": "유럽 은행주 3%↓·자동차주 1.5%↑… 시장, ECB 12월 0.25%p 인상 확률 87% 반영",
+   "s": "IUX24",
+   "u": "https://www.iux24.com/news/european-stocks-drop-as-rate-hike-fears-and-ai-doubts-hit-banks-and-tech-sectors-20261125/"
+  },
+  {
+   "time": "11/26 02:17",
+   "reg": "US",
+   "cat": "증시",
+   "title": "美 동부 11시31분 나스닥 3.98%↓ 22,789·S&P 500 2.69%↓… 약세장 진입선 3% 앞, AMD 9.56%·엔비디아 8.69%↓",
+   "s": "The Motley Fool",
+   "u": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-midday-nov-25-nasdaq-plunges-4-as-ai-sell-off-deepens-and-inflation-remains-stubborn/"
+  },
+  {
+   "time": "11/26 01:00",
+   "reg": "글로벌",
+   "cat": "원자재",
+   "title": "브렌트유 이틀째 올라 배럴당 93달러 위… 사우디, 라스타누라 겨냥 드론 4대 요격",
+   "s": "Trading Economics",
+   "u": "https://tradingeconomics.com/commodity/brent-crude-oil/news/604409"
+  },
+  {
+   "time": "11/26 00:58",
+   "reg": "US",
+   "cat": "금리",
+   "title": "美 10년물 국채금리 4.81%로 9월 이후 최저… 4주 새 17.4bp 하락",
+   "s": "Trading Economics",
+   "u": "https://tradingeconomics.com/united-states/government-bond-yield/news/604405"
+  },
+  {
+   "time": "11/26 00:56",
+   "reg": "US",
+   "cat": "실적",
+   "title": "디어 분기 EPS 3.89달러로 예상치 4.05달러 밑돌아… 리오토는 매출총이익률 17%로 개선(전분기 11%)",
+   "s": "24/7 Wall St.",
+   "u": "https://247wallst.com/investing/2026/11/25/stock-market-today-huangover-is-causing-headache-for-tech-stocks/"
+  }
+ ],
+ "kr": [
+  {
+   "cat": "증시",
+   "time": "11/26 16:28",
+   "title": "코스피 0.29% 오른 4,711.21… 장중 4,817까지 갔다가 상승폭 대부분 반납",
+   "body": "코스피는 전 거래일보다 13.70포인트(0.29%) 오른 4,711.21에 마감했다. 4,745.10에 출발해 장중 4,817.77까지 올랐지만 장 후반 4,704.65까지 밀리며 전날 낙폭(308.52포인트)의 일부만 되찾았다. 코스닥은 5.07포인트(0.78%) 오른 655.71로 마쳤고, 유가증권시장에서는 하락 종목(441개)이 상승 종목(426개)보다 많았다.",
+   "links": [
+    {
+     "s": "서울신문",
+     "u": "https://www.seoul.co.kr/news/economy/securities/2026/11/26/20261126500256"
+    },
+    {
+     "s": "파이낸셜뉴스(네이트)",
+     "u": "https://m.news.nate.com/view/20261126n27858"
+    },
+    {
+     "s": "디지털데일리",
+     "u": "https://www.ddaily.co.kr/page/view/2026112615574569701"
+    }
+   ]
+  },
+  {
+   "cat": "수급",
+   "time": "11/26 16:04",
+   "title": "기관 7,508억원 순매수로 지수 지탱… 개인 1조438억·외국인 1,137억원 순매도",
+   "body": "유가증권시장에서 기관이 7,508억원을 순매수한 반면 개인은 1조438억원, 외국인은 1,137억원을 순매도했다. 파이낸셜뉴스는 오전 한때 순매수였던 외국인이 장 마감 무렵 매도로 돌아섰고, 기관 가운데 금융투자가 6,218억원을 사들였다고 전했다. 코스닥에서는 기관이 2,326억원을 순매수했고 개인(1,351억원)과 외국인(1,062억원)은 순매도했다.",
+   "links": [
+    {
+     "s": "뉴스1",
+     "u": "https://www.news1.kr/finance/market-exr/6367384"
+    },
+    {
+     "s": "위키트리",
+     "u": "https://www.wikitree.co.kr/articles/1178066"
+    }
+   ]
+  },
+  {
+   "cat": "통화정책",
+   "time": "11/26 13:33",
+   "title": "한은, 기준금리 3.25%로 인상… 점도표 21개 중 15개가 현 금리 위",
+   "body": "금통위가 기준금리를 연 3.00%에서 3.25%로 0.25%포인트 올렸다. 6개월 뒤 금리를 보여주는 점도표 21개 가운데 3.75%에 7개, 3.50%에 8개, 3.25%에 6개가 찍혔고, 황건일·이수형 위원은 동결 소수의견을 냈다. 신현송 총재는 이번 인상을 선제적 대응이자 가시화된 물가 상승에 대한 대응이라고 설명했다.",
+   "links": [
+    {
+     "s": "뉴스1",
+     "u": "https://www.news1.kr/economy/trend/6367004"
+    },
+    {
+     "s": "이투데이",
+     "u": "https://www.etoday.co.kr/news/view/2653374"
+    },
+    {
+     "s": "스페셜타임스",
+     "u": "https://www.specialtimes.co.kr/news/articleView.html?idxno=490569"
+    }
+   ]
+  },
+  {
+   "cat": "거시",
+   "time": "11/26 16:28",
+   "title": "한은 내년 성장률 전망 2.9%→4.1%… 반도체 호황 파급이 1.2%p 끌어올려",
+   "body": "한은은 올해 성장률 전망을 3.3%에서 3.9%로, 내년을 2.9%에서 4.1%로 높였고 반도체 호황 파급에 따른 상향폭을 올해 0.75%포인트, 내년 1.2%포인트로 제시했다. IT 제조업의 명목 비중이 지난해 9.0%에서 올해 상반기 20.7%로 커진 영향으로, 이 비중을 9%로 고정하면 내년 성장률은 3% 안팎이라고 설명했다. 올해 민간소비 증가율 전망은 2.1%에서 1.8%로 낮췄고 내년 소비자물가 전망은 2.4%다.",
+   "links": [
+    {
+     "s": "뉴스핌",
+     "u": "https://www.newspim.com/news/view/20261126001210"
+    },
+    {
+     "s": "이투데이",
+     "u": "https://etoday.co.kr/news/view/2653402"
+    }
+   ]
+  },
+  {
+   "cat": "채권",
+   "time": "11/26 14:11",
+   "title": "매파적 점도표에 국고채 금리 일제히 상승… 3년물 3.624%·10년물 3.805%(오후 1시44분)",
+   "body": "이데일리에 따르면 오후 1시44분 국고채 3년물은 연 3.624%로 전 거래일보다 4.7bp, 10년물은 3.805%로 5.2bp, 2년물은 3.679%로 5.4bp 올랐다. 동결 소수의견 2명이 나오자 약세가 잠시 되돌려졌지만 점도표 공개 뒤 금리 상승폭이 다시 커졌다. 간밤 미국 국채 금리가 내렸는데도 국내 채권은 약세를 보였다.",
+   "links": [
+    {
+     "s": "이데일리",
+     "u": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03194726645649656"
+    }
+   ]
+  },
+  {
+   "cat": "환율",
+   "time": "11/26 15:49",
+   "title": "원/달러 1,342.7원에 주간 마감, 0.5원 하락… 금리 인상·수출업체 네고가 눌러",
+   "body": "서울 외환시장에서 원/달러 환율 주간 종가는 1,342.7원으로 전 거래일 주간 종가보다 0.5원 내렸다. 뉴스1은 한은의 금리 인상과 수출업체 달러 매도(네고)가 하락 요인으로, 미국 기술주 부진에 따른 위험회피 심리가 상승 요인으로 작용했다고 전했다. 글로벌 달러 약세도 환율 상단을 제한했다.",
+   "links": [
+    {
+     "s": "뉴스1",
+     "u": "https://www.news1.kr/finance/market-exr/6367344"
+    },
+    {
+     "s": "아시아경제",
+     "u": "https://view.asiae.co.kr/article/2026112615391282826"
+    },
+    {
+     "s": "서울파이낸스",
+     "u": "https://www.seoulfn.com/news/articleView.html?idxno=644050"
+    }
+   ]
+  },
+  {
+   "cat": "반도체",
+   "time": "11/26 15:38",
+   "title": "SK하이닉스 2.23% 오른 105만3,000원… 장중 5%대 상승에서 폭 줄여",
+   "body": "SK하이닉스는 한때 5% 넘게 올랐다가 2.23% 오른 105만3,000원에 마감했다. 삼성전자는 장중 17만6,700원까지 올랐지만 0.35% 오른 17만1,300원으로 마쳤고, SK스퀘어는 2.68% 오른 65만2,000원을 기록했다.",
+   "links": [
+    {
+     "s": "위키트리",
+     "u": "https://www.wikitree.co.kr/articles/1178066"
+    },
+    {
+     "s": "파이낸셜뉴스(네이트)",
+     "u": "https://m.news.nate.com/view/20261126n27858"
+    }
+   ]
+  },
+  {
+   "cat": "공시",
+   "time": "11/26",
+   "title": "삼성SDI, 보유 자사주 전량 소각 결정… 시가 1조4,234억원, 삼성전기 이어 이틀째",
+   "body": "삼성SDI는 26일 이사회에서 보통주 333만1,391주와 우선주 17만8,400주 등 보유 자사주 전량을 다음 달 3일 소각하기로 했다. 25일 종가 기준 시가는 1조4,234억원으로 장부가 3,451억원의 4.1배다. 전날에는 삼성전기가 보통주 200만주와 우선주 5만3,430주, 약 1조7천억원어치 소각을 결정했다.",
+   "links": [
+    {
+     "s": "한국경제TV",
+     "u": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611260090"
+    },
+    {
+     "s": "아시아투데이",
+     "u": "https://www.asiatoday.co.kr/kn/view.php?key=20261126010010456"
+    }
+   ]
+  },
+  {
+   "cat": "특징주",
+   "time": "11/26 15:26",
+   "title": "스페이스X 위성 100만기 배치 승인 소식에 우주항공주 급등… LK삼양 상한가",
+   "body": "미국 정부가 스페이스X에 AI 데이터센터용 위성을 최대 100만기 배치하도록 승인했다는 소식에 LK삼양이 가격제한폭(29.93%)까지 올라 4,580원을 기록했다. 한국경제 집계로 오후 3시께 센서뷰는 19.35%, 스피어는 18.15%, 에이치브이엠은 14.12%, 나라스페이스테크놀로지는 9.19% 올랐다. 에이치브이엠은 같은 날 우주항공 금속 유통사와 약 109억9천만원(최근 매출 대비 16.52%) 규모 슈퍼알로이 공급계약을 공시했다.",
+   "links": [
+    {
+     "s": "한국경제",
+     "u": "https://www.hankyung.com/article/202611262510i"
+    },
+    {
+     "s": "뉴스핌",
+     "u": "https://www.newspim.com/news/view/20261126000288"
+    },
+    {
+     "s": "스페셜타임스",
+     "u": "https://www.specialtimes.co.kr/news/articleView.html?idxno=490632"
+    }
+   ]
+  },
+  {
+   "cat": "업종",
+   "time": "11/26 15:46",
+   "title": "현대차 3.90% 내린 25만9,000원… LG에너지솔루션도 2%대 약세",
+   "body": "현대차는 1만500원(3.90%) 내린 25만9,000원에 마감했으며, 재경일보는 하락을 설명할 특정 악재나 공시는 확인되지 않았다고 전했다. LG에너지솔루션은 2.11% 내린 30만2,000원으로 시가총액 상위 5개 종목 가운데 유일하게 하락했다.",
+   "links": [
+    {
+     "s": "재경일보",
+     "u": "https://news.jkn.co.kr/post/1125000"
+    },
+    {
+     "s": "위키트리",
+     "u": "https://www.wikitree.co.kr/articles/1178066"
+    },
+    {
+     "s": "아시아경제",
+     "u": "https://view.asiae.co.kr/article/2026112616241594889"
+    }
+   ]
+  },
+  {
+   "cat": "정책",
+   "time": "11/26 16:26",
+   "title": "증안펀드 20조원 이상으로 확대 거론… 5대 금융지주·산은 출자 여력 점검",
+   "body": "2020년 조성돼 2022년 출자 약정을 다시 맺은 증권시장안정펀드(약정액 10조7,600억원)를 20조원 이상으로 늘리는 방안이 거론된다고 이투데이가 전했다. 5대 금융지주와 산업은행이 기존 약정액의 60% 넘게 맡고 있다. 당국은 상장사 일일 자사주 매수주문 한도 3개월 완화, 불법 공매도 특별집중 감시, 신용융자·반대매매 모니터링 강화도 함께 추진하고 있다.",
+   "links": [
+    {
+     "s": "이투데이",
+     "u": "https://www.etoday.co.kr/news/view/2653559"
+    },
+    {
+     "s": "세계일보",
+     "u": "https://www.segye.com/newsView/20261126503605"
+    }
+   ]
+  },
+  {
+   "cat": "리서치",
+   "time": "11/26 11:10",
+   "title": "신영증권, 삼성전기 목표가 130만원으로 커버리지 개시… 대신증권은 CJ 목표가 하향",
+   "body": "신영증권은 삼성전기에 대해 투자의견 매수, 목표주가 130만원(전일 종가 75만5,000원)으로 분석을 시작했고 컴포넌트 사업부 영업이익률을 2028년 35.7%로 추정했다. 대신증권은 CJ의 지주사 할인율을 55%에서 61.5%로 높여 목표가를 21만원에서 13만2,000원으로 내렸고(매수 유지), 하나증권은 코스맥스에 매수와 목표가 42만원을 유지했다.",
+   "links": [
+    {
+     "s": "파이낸셜뉴스",
+     "u": "https://www.fnnews.com/news/202611261031020809"
+    }
+   ]
+  }
+ ],
+ "kr_more": [
+  {
+   "time": "11/26 15:43",
+   "title": "증권가, 내년 2월 추가 인상으로 최종금리 3.50% 도달 전망",
+   "s": "스페셜타임스",
+   "u": "https://www.specialtimes.co.kr/news/articleView.html?idxno=490647"
+  },
+  {
+   "time": "11/26",
+   "title": "코스피 급등락 장세에 투자자 대기자금·거래대금 동반 감소",
+   "s": "뉴스핌",
+   "u": "https://www.newspim.com/news/view/20261126000999"
+  },
+  {
+   "time": "11/26",
+   "title": "우원개발, 1,528억원 규모 GTX-C 노선 공사 수주에 16%대 급등",
+   "s": "와이드경제",
+   "u": "https://www.widedaily.com/news/articleView.html?idxno=304828"
+  },
+  {
+   "time": "11/26 11:48",
+   "title": "HJ중공업, 원종동 가로주택정비사업 518억원 공사 계약(매출 대비 2.6%)",
+   "s": "스페셜타임스",
+   "u": "https://www.specialtimes.co.kr/news/articleView.html?idxno=490560"
+  },
+  {
+   "time": "11/26 10:35",
+   "title": "우주 데이터센터 전력원 부각에 OCI홀딩스 등 태양광주 동반 강세",
+   "s": "더페어",
+   "u": "https://www.thefairnews.co.kr/news/articleView.html?idxno=95587"
+  },
+  {
+   "time": "11/26",
+   "title": "RFHIC, 차세대 통신망 테마 매수세에 급등… GaN 트랜지스터 양산 역량 부각",
+   "s": "와이드경제",
+   "u": "https://www.widedaily.com/news/articleView.html?idxno=304845"
+  },
+  {
+   "time": "11/26",
+   "title": "인벤티지랩, mRNA·약물전달 플랫폼 확장 기대에 18%대 급등",
+   "s": "와이드경제",
+   "u": "https://www.widedaily.com/news/articleView.html?idxno=304844"
+  },
+  {
+   "time": "11/26",
+   "title": "넥스트바이오메디컬 장중 12%대 상승… 혈관색전재 유럽 CE-MDR 인증 재조명",
+   "s": "와이드경제",
+   "u": "https://www.widedaily.com/news/articleView.html?idxno=304888"
+  },
+  {
+   "time": "11/26",
+   "title": "엑시콘, 단일판매·공급계약 체결 공시",
+   "s": "스페셜타임스",
+   "u": "https://www.specialtimes.co.kr/news/articleView.html?idxno=490576"
+  },
+  {
+   "time": "11/26",
+   "title": "씨이랩, 단일판매·공급계약 체결 공시",
+   "s": "스페셜타임스",
+   "u": "https://www.specialtimes.co.kr/news/articleView.html?idxno=490654"
+  },
+  {
+   "time": "11/26",
+   "title": "금감원, 부적격 유사투자자문업자 106곳 직권말소… 5년간 재진입 금지",
+   "s": "뉴스핌",
+   "u": "https://www.newspim.com/news/view/20261126001066"
+  },
+  {
+   "time": "11/26",
+   "title": "KB국민은행, 블록체인 예금토큰 결제 서비스 공개",
+   "s": "뉴스핌",
+   "u": "https://www.newspim.com/news/view/20261126001211"
+  }
+ ],
+ "cal": [
+  {
+   "when": "11/26",
+   "c": "KR",
+   "what": "한국은행 금통위 (기준금리 결정·수정 경제전망)",
+   "note": "현행 3.00%, 3.25% 인상 전망 우세(기사)",
+   "links": [
+    {
+     "s": "네이트 뉴스",
+     "u": "https://m.news.nate.com/view/20261126n01938"
+    },
+    {
+     "s": "이투데이",
+     "u": "https://www.etoday.co.kr/news/view/2652820"
+    }
+   ]
+  },
+  {
+   "when": "11/26",
+   "c": "KR",
+   "what": "3분기 가계동향조사 결과·12월 국고채 발행계획 발표",
+   "links": [
+    {
+     "s": "이투데이",
+     "u": "https://www.etoday.co.kr/news/view/2651252"
+    }
+   ]
+  },
+  {
+   "when": "11/26",
+   "c": "US",
+   "what": "추수감사절 — 뉴욕증시 휴장",
+   "note": "선물은 27일 새벽 품목별 조기 종료",
+   "links": [
+    {
+     "s": "CME Elite Group",
+     "u": "https://www.cmelitegroup.com/knowledge-hub/us-stock-market-holidays-2026-and-2027-when-the-nyse-and-nasdaq-close/"
+    },
+    {
+     "s": "토큰포스트",
+     "u": "https://tokenpost.kr/news/market/444274"
+    }
+   ]
+  },
+  {
+   "when": "11/26",
+   "c": "EU",
+   "what": "유로존 정상들, 브뤼셀서 라가르드 ECB 총재 후임 논의(26~27일)",
+   "note": "후임은 12월 EU 정상회의에서 결정 예정",
+   "links": [
+    {
+     "s": "Caixin Global",
+     "u": "https://www.caixinglobal.com/2026-11-21/the-week-ahead-nov-23-29-ecb-succession-and-opec-oil-talks-102507365.html"
+    }
+   ]
+  },
+  {
+   "when": "11/26 18:00",
+   "c": "EU",
+   "what": "ECB 유로존 통화동향(M3 등)·보험사 분기 통계 공표",
+   "links": [
+    {
+     "s": "ECB",
+     "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html"
+    }
+   ]
+  },
+  {
+   "when": "11/26 21:30",
+   "c": "EU",
+   "what": "ECB 10월 28~29일 통화정책회의 의사록 공개",
+   "links": [
+    {
+     "s": "ECB 주간 일정",
+     "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html"
+    }
+   ]
+  },
+  {
+   "when": "11/27",
+   "c": "KR",
+   "what": "에이엔에이치스트럭쳐 공모주 일반청약(27·30일)",
+   "note": "희망 공모가 11,200~13,600원, 대표주관 NH투자증권",
+   "links": [
+    {
+     "s": "서울경제",
+     "u": "https://m.sedaily.com/article/20117349"
+    }
+   ]
+  },
+  {
+   "when": "11/27 18:00",
+   "c": "EU",
+   "what": "ECB 10월 소비자기대조사 결과",
+   "links": [
+    {
+     "s": "ECB 주간 일정",
+     "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html"
+    }
+   ]
+  },
+  {
+   "when": "11/27 23:15",
+   "c": "EU",
+   "what": "ECB 부이치치 부총재, 분데스방크 주최 Euro20+ 행사 타운홀(프랑크푸르트)",
+   "links": [
+    {
+     "s": "ECB",
+     "u": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html"
+    }
+   ]
+  },
+  {
+   "when": "11/28 03:00",
+   "c": "US",
+   "what": "추수감사절 다음 날 뉴욕증시 조기 폐장(현지 27일 13:00)",
+   "links": [
+    {
+     "s": "CME Elite Group",
+     "u": "https://www.cmelitegroup.com/knowledge-hub/us-stock-market-holidays-2026-and-2027-when-the-nyse-and-nasdaq-close/"
+    }
+   ]
+  },
+  {
+   "when": "11/29",
+   "c": "글로벌",
+   "what": "OPEC+ 장관회의 — 생산 목표·2027년 쿼터 틀 논의",
+   "note": "로이터는 회의를 앞둔 정책 불확실성이 유가를 떠받친다고 전함",
+   "links": [
+    {
+     "s": "Caixin Global",
+     "u": "https://www.caixinglobal.com/2026-11-21/the-week-ahead-nov-23-29-ecb-succession-and-opec-oil-talks-102507365.html"
+    },
+    {
+     "s": "OilPrice.com(로이터)",
+     "u": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Over-2-as-Saudi-Arabia-Downs-Drones-Over-Ras-Tanura.html"
+    }
+   ]
+  },
+  {
+   "when": "12/01",
+   "c": "EU",
+   "what": "EU, 모든 국가산 하이브리드차 수입에 잠정 세이프가드 쿼터 적용",
+   "links": [
+    {
+     "s": "Chip Dispatch",
+     "u": "https://chipdispatch.com/articles/european-chip-stocks-slump-as-nasdaq-s-4-ai-rout-crosses-the-atlantic"
+    }
+   ]
+  },
+  {
+   "when": "12/02 00:00",
+   "c": "US",
+   "what": "미국 10월 구인·이직 보고서(JOLTS)",
+   "links": [
+    {
+     "s": "FedRateCalc(BLS 일정)",
+     "u": "https://fedratecalc.com/us-economic-calendar/december-2026/"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "원/달러: 오늘(11/26) 새벽 2시 야간 종가 기사를 쿼리 6가지로 찾지 못해 11/25 15:30 주간 종가 칸을 그대로 뒀다.",
+  "코스피200 야간선물: 새벽 06:00 종가·등락률 기사를 찾지 못해 칸을 넣지 않았다.",
+  "S&P 500: FMP 11/25 일봉 7,185.96(-0.21%)을 썼다. 블록미디어는 7,182.78(-0.25%), 아시아경제는 -0.25%로 보도해 07·08시 작업에서 확정 종가 확인이 필요하다.",
+  "유로스톡스50: FMP 5,894.46(-1.82%)은 dpa-AFX 마감 기사와 같다. Newsquawk 속보는 -1.88%(5,891)였다.",
+  "DAX·STOXX 600: Chip Dispatch·RTTNews의 24,702.13(-1.26%), 626.03(-1.06%)을 썼다. 로이터(Boursorama) 본문은 DAX -1.14%, STOXX 600 -0.93%로 적었다.",
+  "분량 부족: 미국 요약 7건(목표 8), 미국 헤드라인 5건(목표 10), 유럽 헤드라인 4건(목표 5). 검색 40회 안에서 날짜가 확인되는 기사를 더 찾지 못했다.",
+  "미국은 26일 추수감사절 휴장, 27일 조기 폐장. FMP 실적 캘린더(11/26~28)는 빈 결과였다.",
+  "목표가 변동: 리서치 리포트 11/25 발간분 — 상향 3·하향 3·신규 5(신규 7건 중 5건).",
+  "국고채: 오늘 마감 금리 기사를 찾지 못해 한국 요약에는 이데일리 오후 1시44분 장중 금리를 적었다.",
+  "코스피 투자자별 매매는 집계 시점에 따라 매체별로 다르다. 서울신문·뉴스1(한국거래소 집계) 수치를 썼고, 파이낸셜뉴스는 외국인 1,095억원·개인 1조441억원 순매도, 기관 7,509억원 순매수로 보도했다."
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "generated": "2026-11-28 06:52",
+ "src_updated": "2026-11-27T18:07:50+09:00",
+ "days": [
+  "2026-11-27"
+ ],
+ "items": [
+  {
+   "kind": "up",
+   "d": "2026-11-27",
+   "b": "삼성증권",
+   "s": "에이피알",
+   "k": "278470",
+   "op": "BUY",
+   "tp": 450000,
+   "ptp": 400000,
+   "a": "정동희",
+   "pct": 12.5,
+   "u": "https://www.samsungpop.com/common.do?cmd=down&contentType=application/pdf&inlineYn=Y&saveKey=research.pdf&fileName=2010/2026112617183802K_02_01.pdf"
+  },
+  {
+   "kind": "up",
+   "d": "2026-11-27",
+   "b": "현대차증권",
+   "s": "로보티즈",
+   "k": "108490",
+   "op": "매수",
+   "opc": "유지",
+   "tp": 415000,
+   "ptp": 380000,
+   "a": "윤동욱",
+   "pct": 9.2,
+   "u": "https://m.news.nate.com/view/20261127n05382"
+  },
+  {
+   "kind": "down",
+   "d": "2026-11-27",
+   "b": "키움증권",
+   "s": "펄어비스",
+   "k": "263750",
+   "op": "아웃퍼폼",
+   "opc": "유지",
+   "tp": 33000,
+   "ptp": 53000,
+   "a": "김진구",
+   "pct": -37.7,
+   "u": "https://www.fnnews.com/news/202611271049344809"
+  },
+  {
+   "kind": "down",
+   "d": "2026-11-27",
+   "b": "DS투자증권",
+   "s": "동아에스티",
+   "k": "170900",
+   "op": "매수",
+   "opc": "유지",
+   "tp": 50000,
+   "ptp": 63000,
+   "a": "김민정",
+   "pct": -20.6,
+   "u": "https://www.businesspost.co.kr/BP?command=article_view&num=453092"
+  },
+  {
+   "kind": "new",
+   "d": "2026-11-27",
+   "b": "신한투자증권",
+   "s": "현대오토에버",
+   "k": "307950",
+   "op": "매수",
+   "opc": "신규",
+   "tp": 470000,
+   "u": "https://www.newspim.com/news/view/20261127000112"
+  }
+ ]
+}
